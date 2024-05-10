@@ -151,7 +151,7 @@ EvosMovesPointerTable:
 	dw CloysterEvosMoves
 	dw MissingNo8CEvosMoves
 	dw ElectrodeEvosMoves
-	dw ClefableEvosMoves
+	dw ableEvosMoves
 	dw WeezingEvosMoves
 	dw PersianEvosMoves
 	dw MarowakEvosMoves
@@ -282,8 +282,8 @@ VoltorbEvosMoves:
 	db 13, THUNDER_WAVE
 	db 19, SELFDESTRUCT
 	db 22, SWIFT
-	db 30, TRI_ATTACK
-	db 35, THUNDERBOLT
+	db 30, THUNDERBOLT
+	db 35, TRI_ATTACK
 	db 44, EXPLOSION
 	db 50, THUNDER
 	db 0
@@ -341,14 +341,14 @@ ExeggutorEvosMoves:
 ; Learnset
 	db 10, POISONPOWDER
 	db 13, LEECH_SEED
-	db 19, CONFUSION
+	db 19, PSYBEAM
 	db 20, MEGA_DRAIN
-	db 25, REFLECT
-	db 28, STOMP
-	db 32, STUN_SPORE
-	db 40, EGG_BOMB
-	db 45, PSYCHIC_M
-	db 48, SLEEP_POWDER
+	db 25, CONFUSE_RAY
+	db 31, STOMP
+	db 35, STUN_SPORE
+	db 43, EGG_BOMB
+	db 50, PSYCHIC_M
+	db 53, SLEEP_POWDER
 	db 0
 
 LickitungEvosMoves:
@@ -357,11 +357,11 @@ LickitungEvosMoves:
 ; Learnset
 	db 7, STOMP
 	db 15, DISABLE
-	db 19, HEADBUTT
-	db 23, DEFENSE_CURL
-	db 32, BODY_SLAM
-	db 39, SCREECH
-	db 44, WRAP
+	db 19, WRAP
+	db 23, BODY_SLAM
+	db 32, RECOVER
+	db 39, SWORDS_DANCE
+	db 44, EARTHQUAKE
 	db 0
 
 ExeggcuteEvosMoves:
@@ -371,10 +371,10 @@ ExeggcuteEvosMoves:
 ; Learnset
 	db 10, POISONPOWDER
 	db 13, LEECH_SEED
-	db 19, CONFUSION
+	db 19, PSYBEAM
 	db 20, MEGA_DRAIN
-	db 25, REFLECT
-	db 32, STUN_SPORE
+	db 25, CONFUSE_RAY
+	db 32, SOFTBOILED
 	db 40, EGG_BOMB
 	db 45, PSYCHIC_M
 	db 48, SLEEP_POWDER
@@ -393,7 +393,7 @@ GrimerEvosMoves:
 	db 33, SLUDGE
 	db 37, BODY_SLAM
 	db 42, TOXIC
-	db 45, SCREECH
+	db 45, EXPLOSION
 	db 0
 
 GengarEvosMoves:
@@ -401,8 +401,8 @@ GengarEvosMoves:
 	db 0
 ; Learnset
 	db 10, SMOG
-	db 15, PSYWAVE
 	db 36, NIGHT_SHADE
+	db 45, SLUDGE
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
 	db 0
@@ -415,7 +415,7 @@ NidoranFEvosMoves:
  	db 6, POISON_STING
 	db 8, BITE
 	db 12, DOUBLE_KICK
-	db 23, TAIL_WHIP
+	db 23, SUPER_FANG
 	db 30, HEADBUTT
 	db 38, FURY_SWIPES
 	db 0
@@ -424,7 +424,7 @@ NidoqueenEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 2, TAIL_WHIP
+	db 2, SUPER_FANG
 	db 6, POISON_STING
 	db 8, HEADBUTT
 	db 12, DOUBLE_KICK
@@ -440,12 +440,12 @@ CuboneEvosMoves:
 ; Learnset
 	db 5, LEER
 	db 10, BONE_CLUB
-	db 13, TAIL_WHIP
-	db 18, HEADBUTT
-	db 25, FOCUS_ENERGY
+	db 13, ROCK_THROW
+	db 19, BODY_SLAM
+	db 27, ROCK_SLIDE
 	db 31, BONEMERANG
-	db 38, THRASH
-	db 46, RAGE
+	db 38, RAGE
+	db 46, EARTHQUAKE
 	db 0
 
 RhyhornEvosMoves:
@@ -468,13 +468,13 @@ LaprasEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, MIST
+	db 19, SING
 	db 23, AURORA_BEAM
 	db 25, BODY_SLAM
 	db 30, CONFUSE_RAY
 	db 34, WATERFALL
 	db 38, ICE_BEAM
-	db 46, SING
+	db 46, RECOVER
 	db 51, HYDRO_PUMP
 	db 55, BLIZZARD
 	db 0
@@ -484,7 +484,7 @@ ArcanineEvosMoves:
 	db 0
 ; Learnset
 	db 18, EMBER
-	db 23, LEER
+	db 23, DOUBLE_KICK
 	db 30, TAKE_DOWN
 	db 45, FLAMETHROWER
 	db 46, AGILITY
@@ -495,9 +495,9 @@ MewEvosMoves:
 	db 0
 ; Learnset
 	db 10, TRANSFORM
-	db 15, CONFUSION
-	db 20, MEGA_PUNCH
-	db 25, PSYBEAM
+	db 15, PSYBEAM
+	db 20, BODY_SLAM
+	db 25, AMNESIA
 	db 30, RECOVER
 	db 40, PSYCHIC_M
 	db 0
@@ -506,12 +506,12 @@ GyaradosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, BITE
-	db 22, GUST
-	db 25, WATERFALL
-	db 28, DRAGON_RAGE
-	db 32, LEER
-	db 35, THRASH
+	db 20, GUST
+	db 22, WATERFALL
+	db 25, DRAGON_RAGE
+	db 28, WRAP
+	db 32, SUPER_FANG
+	db 35, BODY_SLAM
 	db 41, HYDRO_PUMP
 	db 48, SLAM
 	db 52, HYPER_BEAM
@@ -524,7 +524,7 @@ ShellderEvosMoves:
 ; Learnset
 	db 10, WATER_GUN
 	db 14, SUPERSONIC
-	db 17, LEER
+	db 17, BARRIER
 	db 20, AURORA_BEAM
 	db 25, BUBBLEBEAM
 	db 35, ICE_BEAM
@@ -538,14 +538,14 @@ TentacoolEvosMoves:
 	db EVOLVE_LEVEL, 30, TENTACRUEL
 	db 0
 ; Learnset
-	db 7, SUPERSONIC
+	db 7, CONFUSE_RAY
 	db 13, WATER_GUN
 	db 18, ACID
 	db 23, BUBBLEBEAM
-	db 27, CONSTRICT
+	db 27, MEGA_DRAIN
 	db 35, BARRIER
-	db 40, SCREECH
-	db 43, SLUDGE
+	db 40, SLUDGE
+	db 43, RECOVER
 	db 47, WRAP
 	db 50, HYDRO_PUMP
 	db 0
@@ -567,13 +567,13 @@ ScytherEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 6, FOCUS_ENERGY
-	db 16, CUT
+	db 6, CUT
+	db 16, SLASH
 	db 24, AGILITY
 	db 30, WING_ATTACK
-	db 36, SLASH
-	db 42, TWINEEDLE
-	db 48, DOUBLE_TEAM
+	db 36, TWINEEDLE
+	db 42, VICEGRIP
+	db 48, SKY_ATTACK
 	db 54, SWORDS_DANCE
 	db 0
 
@@ -585,8 +585,8 @@ StaryuEvosMoves:
 	db 7, WATER_GUN
 	db 10, CONFUSION
 	db 15, SWIFT
-	db 22, HARDEN
-	db 24, BUBBLEBEAM
+	db 22, BUBBLEBEAM
+	db 24, AURORA_BEAM
 	db 27, RECOVER
 	db 37, MINIMIZE
 	db 40, PSYCHIC_M
@@ -615,12 +615,12 @@ PinsirEvosMoves:
 	db 0
 ; Learnset
 	db 5, HARDEN
-	db 8, FOCUS_ENERGY
+	db 8, DIG
 	db 25, SEISMIC_TOSS
 	db 30, TWINEEDLE
 	db 36, SUBMISSION
-	db 42, SLASH
-	db 45, GUILLOTINE
+	db 42, VICEGRIP
+	db 45, EARTHQUAKE
 	db 48, BIND
 	db 54, SWORDS_DANCE
 	db 0
@@ -1916,7 +1916,7 @@ MukEvosMoves:
 	db 33, SLUDGE
 	db 37, BODY_SLAM
 	db 42, TOXIC
-	db 45, SCREECH
+	db 45, EXPLOSION
 	db 0
 
 MissingNo8AEvosMoves:
@@ -1967,8 +1967,8 @@ ElectrodeEvosMoves:
 	db 19, THUNDER_WAVE
 	db 22, SELFDESTRUCT
 	db 26, SWIFT
-	db 30, TRI_ATTACK
-	db 35, THUNDERBOLT
+	db 30, THUNDERBOLT
+	db 35, TRI_ATTACK
 	db 44, EXPLOSION
 	db 50, THUNDER
 	db 0
@@ -1977,13 +1977,13 @@ ClefableEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, DOUBLESLAP
-	db 19, MINIMIZE
-	db 26, DEFENSE_CURL
-	db 30, METRONOME
-	db 35, BODY_SLAM
-	db 43, LIGHT_SCREEN
-	db 48, SING
+	db 19, DIZZY_PUNCH
+	db 25, MINIMIZE
+	db 31, BODY_SLAM
+	db 36, SOFTBOILED
+	db 38, LOVELY_KISS
+	db 43, TRI_ATTACK
+	db 50, AMNESIA
 	db 0
 
 WeezingEvosMoves:
@@ -2016,13 +2016,13 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, LEER
 	db 10, BONE_CLUB
-	db 13, TAIL_WHIP
-	db 18, HEADBUTT
-	db 25, FOCUS_ENERGY
+	db 13, ROCK_THROW
+	db 19, BODY_SLAM
+	db 27, ROCK_SLIDE
 	db 31, BONEMERANG
-	db 38, THRASH
+	db 38, RAGE
+	db 43, NIGHT_SHADE
 	db 46, EARTHQUAKE
 	db 0
 
@@ -2138,14 +2138,14 @@ TentacruelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, SUPERSONIC
+	db 7, CONFUSE_RAY
 	db 13, WATER_GUN
 	db 18, ACID
 	db 23, BUBBLEBEAM
-	db 27, CONSTRICT
+	db 27, MEGA_DRAIN
 	db 35, BARRIER
-	db 40, SCREECH
-	db 43, SLUDGE
+	db 40, SLUDGE
+	db 43, RECOVER
 	db 47, WRAP
 	db 50, HYDRO_PUMP
 	db 0
