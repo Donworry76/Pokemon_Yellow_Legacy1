@@ -12,8 +12,8 @@ SpecialTrainerMoves:
 	db 1, 3, ROCK_THROW
 	db 2, 1, CONSTRICT
 	db 2, 3, BIDE
-	db 2, 4, BIND
-	db 0
+	db 2, 4, ROCK_THROW
+	db 3, 4, CONFUSE_RAY
 
 	db BROCK, 2
 	db 1, 1, BLIZZARD
@@ -27,7 +27,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
-	db 2, 1, TAIL_WHIP
+	db 2, 3, AURORA_BEAM
 	db 0
 
 	db MISTY, 2
@@ -46,7 +46,7 @@ SpecialTrainerMoves:
 	db 6, 4, THUNDERBOLT
 	db 0
 
-	db LT_SURGE, 1 ; db $FF, 29, RAICHU, 0
+	db LT_SURGE, 1 ; db $FF, 31, RAICHU, 0
 	db 1, 1, THUNDERBOLT
 	db 1, 2, THUNDER_WAVE
 	db 1, 3, BODY_SLAM
@@ -54,7 +54,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db LT_SURGE, 2 ; db $FF, 64, ELECTRODE, 65, MAGNETON, 64, JOLTEON, 64, PORYGON, 64, ELECTABUZZ, 65, RAICHU, 0
-	db 1, 2, THUNDER_WAVE
+	db 1, 1, RECOVER
 	db 2, 1, THUNDER_WAVE
 	db 2, 3, REFLECT
 	db 3, 1, HEADBUTT
@@ -71,14 +71,15 @@ SpecialTrainerMoves:
 	db 0
 
 	db ERIKA, 1 ; db $FF, 33, TANGELA, 34, VICTREEBEL, 31, IVYSAUR, 35, VILEPLUME, 0
-	db 1, 1, BIND
+	db 1, 1, LEECH_SEED
+	db 1, 2, BODY_SLAM
 	db 2, 1, MEGA_DRAIN
-	db 3, 1, RAZOR_LEAF
-	db 3, 2, ACID
+	db 3, 1, PETAL_DANCE
+	db 3, 2, SLUDGE
 	db 3, 3, LEECH_SEED
-	db 4, 1, ACID
-	db 4, 2, SOLARBEAM
-	db 4, 3, STUN_SPORE
+	db 4, 1, SLUDGE
+	db 4, 2, MEGA_DRAIN
+	db 4, 3, PETAL_DANCE
 	db 4, 4, SLEEP_POWDER
 	db 0
 
@@ -120,8 +121,7 @@ SpecialTrainerMoves:
     db 0
 
 	db KOGA, 1 ; 42, GOLBAT, 42, MUK, 41, TENTACRUEL, 43, VENOMOTH, 0
-	db 1, 2, TOXIC
-	db 1, 3, BITE
+	db 1, 1, THUNDER_WAVE
 	db 2, 1, ACID_ARMOR
 	db 2, 3, MEGA_DRAIN
 	db 3, 1, SURF
@@ -133,9 +133,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db KOGA, 2 ; 49, GOLBAT, 48, MUK, 49, TENTACRUEL, 48, WEEZING, 50, VENOMOTH, 0
-	db 1, 1, TOXIC
-	db 1, 2, CONFUSE_RAY
-	db 1, 4, BITE
+	db 1, 1, THUNDER_WAVE
 	db 2, 2, MEGA_DRAIN
 	db 2, 4, ACID_ARMOR
 	db 3, 2, SURF
@@ -148,10 +146,10 @@ SpecialTrainerMoves:
 	db 0
 
 	db KOGA, 3
-	db 1, 1, FLY
-	db 1, 2, TOXIC
-	db 1, 3, DOUBLE_TEAM
-	db 1, 4, CONFUSE_RAY
+	db 1, 1, LIGHT_SCREEN
+	db 1, 2, EXPLOSION
+	db 1, 3, THUNDER_WAVE
+	db 1, 4, THUNDERBOLT
 	db 2, 3, MEGA_DRAIN
 	db 2, 4, MINIMIZE
 	db 3, 1, SURF
@@ -167,10 +165,10 @@ SpecialTrainerMoves:
 	db 0
 
 	db BLAINE, 1
-	db 2, 1, FIRE_BLAST
-	db 2, 2, WING_ATTACK
-	db 2, 3, SLASH
-	db 2, 4, SEISMIC_TOSS
+	db 2, 1, SWORDS_DANCE
+	db 2, 2, SKY_ATTACK
+	db 2, 3, EARTHQUAKE
+	db 2, 4, ROCK_SLIDE
 	db 3, 1, FIRE_BLAST
 	db 3, 2, CONFUSE_RAY
 	db 3, 3, SOLARBEAM
@@ -188,9 +186,10 @@ SpecialTrainerMoves:
 	db 1, 3, SOLARBEAM
 	db 1, 4, HORN_DRILL
 	db 2, 4, DIG
-	db 3, 2, FIRE_BLAST
-	db 3, 3, EARTHQUAKE
-	db 3, 4, SWORDS_DANCE
+	db 3, 1, FLAMETRHOWER
+	db 3, 2, RECOVER
+	db 3, 3, SUBSTITUTE
+	db 3, 4, SKY_ATTACK
 	db 4, 2, CONFUSE_RAY
 	db 4, 3, SOLARBEAM
 	db 5, 1, FIRE_BLAST
@@ -201,19 +200,17 @@ SpecialTrainerMoves:
 	db 6, 3, CONFUSE_RAY
 	db 0
 
-	db SABRINA, 1 ; db $FF, 50, ABRA,  48, HYPNO, 49, MR_MIME, 50, KADABRA,  50, ALAKAZAM, 0
-	db 1, 1, PSYCHIC_M
-	db 2, 2, PSYWAVE
+	db SABRINA, 1 ; db $FF, 50, SLOWBRO,  48, HYPNO, 49, MR_MIME, 50, GENGAR,  50, ALAKAZAM, 0
 	db 3, 1, LIGHT_SCREEN
-	db 3, 2, MIMIC
-	db 4, 1, REFLECT
-	db 4, 2, PSYWAVE
-	db 4, 3, PSYCHIC_M
-	db 4, 4, RECOVER 
+	db 3, 2, THUNDERBOLT
+	db 4, 1, PSYCHIC_M
+	db 4, 2, NIGHT_SHADE
+	db 4, 3, HYPNOSIS
+	db 4, 4, DREAM_EATER
 	db 5, 1, THUNDER_WAVE
 	db 0
 
-	db SABRINA, 2 ; db $FF, 43, ABRA,  42, MR_MIME, 43, KADABRA,  43, ALAKAZAM, 0
+	db SABRINA, 2 ; db $FF, 43, SLOWBRO,  42, MR_MIME, 43, GENGAR,  43, ALAKAZAM, 0
 	db 1, 1, PSYCHIC_M
 	db 2, 1, SUBSTITUTE
 	db 2, 1, LIGHT_SCREEN
@@ -228,7 +225,6 @@ SpecialTrainerMoves:
 	db 1, 1, THUNDERBOLT
 	db 1, 4, THUNDER_WAVE
 	db 2, 1, SUBSTITUTE
-	db 2, 2, PSYWAVE
 	db 3, 1, SURF
 	db 3, 2, REFLECT
 	db 4, 1, LOVELY_KISS
@@ -241,16 +237,16 @@ SpecialTrainerMoves:
 	db 0
 
 	db GIOVANNI, 1
-	db 1, 1, ROCK_THROW
+	db 1, 1, ROCK_SLIDE
 	db 1, 2, DIG
 	db 1, 3, SCREECH
-	db 1, 4, TAKE_DOWN
+	db 1, 4, BODY_SLAM
 	db 2, 1, MEGA_PUNCH
 	db 2, 2, SUBMISSION
 	db 3, 1, BONE_CLUB
 	db 3, 2, HEADBUTT
 	db 3, 3, CUT
-	db 4, 1, TAKE_DOWN
+	db 4, 1, SLASH
 	db 4, 2, BUBBLEBEAM
 	db 4, 3, THUNDERBOLT
 	db 0
@@ -259,10 +255,11 @@ SpecialTrainerMoves:
 	db 1, 1, CRABHAMMER
 	db 1, 2, CUT 
 	db 1, 3, BODY_SLAM
-	db 2, 1, ICE_PUNCH
+	db 2, 1, DIZZY_PUNCH
 	db 2, 2, ROCK_SLIDE
 	db 2, 3, SUBMISSION
-	db 3, 1, DIG
+	db 2, 3, SWORDS_DANCE
+	db 3, 1, EARTHQUAKE
 	db 3, 3, ROCK_SLIDE
 	db 4, 1, EARTHQUAKE
 	db 4, 2, ROCK_SLIDE
@@ -270,18 +267,19 @@ SpecialTrainerMoves:
 	db 5, 1, SLASH
 	db 5, 2, BUBBLEBEAM
 	db 5, 3, THUNDERBOLT
+	db 5, 3, HYPNOSIS
 	db 0
 
 	db GIOVANNI, 3 ; 53, DUGTRIO, 54, NIDOQUEEN, 55, PERSIAN,  54, NIDOKING, 55, RHYDON
 	db 1, 1, EARTHQUAKE
-	db 1, 2, SLASH
+	db 1, 2, TRI_ATTACK
 	db 1, 3, FISSURE
 	db 1, 4, ROCK_SLIDE
 	db 2, 1, EARTHQUAKE
 	db 2, 2, ICE_BEAM
 	db 2, 3, THUNDERBOLT
 	db 2, 4, BODY_SLAM
-	db 3, 1, SLASH
+	db 3, 1, HYPNOSIS
 	db 3, 2, HYPER_BEAM
 	db 3, 3, BUBBLEBEAM
 	db 3, 4, THUNDERBOLT
@@ -295,28 +293,34 @@ SpecialTrainerMoves:
 	db 5, 4, THUNDERBOLT
 	db 0
 
-	db LORELEI, 1 ; 56, SLOWBRO, 55, CLOYSTER, 55, DEWGONG,  56, JYNX, 57, LAPRAS
+	db LORELEI, 1 ; 56, SLOWBRO, 55, CLOYSTER, 55, ARTICUNO,  56, JYNX, 57, LAPRAS
 	db 1, 1, EARTHQUAKE
 	db 1, 2, BLIZZARD
 	db 2, 1, SURF
 	db 2, 3, EXPLOSION
-	db 3, 1, SURF
-	db 3, 2, REST
+	db 3, 1, RECOVER
+	db 3, 4, BUBBLEBEAM
 	db 4, 2, BUBBLEBEAM
 	db 4, 3, LOVELY_KISS
 	db 5, 1, THUNDERBOLT
 	db 5, 3, SURF
 	db 0
 
-	db BRUNO, 1 ; 57, HITMONCHAN, 56, POLIWRATH, 57, HITMONLEE, 56, ONIX, 58, MACHAMP
-	db 1, 3, ICE_PUNCH
-	db 1, 4, THUNDERPUNCH
+	db BRUNO, 1 ; 57, MAGMAR, 56, POLIWRATH, 57, ELECTABUZZ, 56, RHYDON, 58, MACHAMP
+	db 1, 1, FLAME_BLAST
+	db 1, 2, BODY_SLAM
+	db 1, 3, CONFUSE_RAY
+	db 1, 4, PSYCHIC_M
 	db 2, 1, ICE_BEAM
-	db 3, 1, BODY_SLAM
-	db 4, 1, EXPLOSION
+	db 3, 1, THUNDERBOLT
+	db 3, 2, THUNDER_WAVE
+	db 3, 3, BODY_SLAM
+	db 3, 4, PSYCHIC_M
+	db 4, 4, SUBSTITUTE
 	db 5, 1, BODY_SLAM
 	db 5, 2, ROCK_SLIDE
 	db 5, 3, EARTHQUAKE
+	db 5, 4, HI_JUMP_KICK
 	db 0
 
 	db AGATHA, 1 ; 57, GENGAR, 58, GOLBAT, 57, MAROWAK, 58, ARBOK, 59, GENGAR
@@ -443,7 +447,7 @@ SpecialTrainerMoves:
 	db 6, 4, ICE_BEAM
 	db 0
 
-	db RIVAL3, 1 ; Champion - 63, ALAKAZAM, 60, RHYDON, 61, GYARADOS, 63, ARCANINE, 62, EXEGGUTOR, 65, JOLTEON
+	db RIVAL3, 1 ; Champion - 65, ALAKAZAM, 65, RHYDON, 65, GYARADOS, 65, ARCANINE, 65, EXEGGUTOR, 65, JOLTEON
 	db 1, 1, THUNDER_WAVE
 	db 1, 4, DOUBLE_TEAM
 	db 2, 3, HORN_DRILL
@@ -460,7 +464,7 @@ SpecialTrainerMoves:
 	db 6, 2, HEADBUTT
 	db 0
 
-	db RIVAL3, 2 ; Champion - 62, MAGNETON, 61, DODRIO, 63, ALAKAZAM, 60, SANDSLASH, 62, CLOYSTER, 65, FLAREON
+	db RIVAL3, 2 ; Champion - 65, MAGNETON, 65, DODRIO, 65, ALAKAZAM, 65, SANDSLASH, 65, CLOYSTER, 65, FLAREON
 	db 1, 1, THUNDER_WAVE
 	db 1, 3, REFLECT
 	db 2, 1, DRILL_PECK
@@ -476,7 +480,7 @@ SpecialTrainerMoves:
 	db 6, 3, DIG
 	db 0
 
-	db RIVAL3, 3 ; Champion - 60, MACHAMP, 61, PIDGEOT, 62, NINETALES, 62, VICTREEBEL, 63, ALAKAZAM, 65, VAPOREON
+	db RIVAL3, 3 ; Champion - 65, MACHAMP, 65, PIDGEOT, 65, NINETALES, 65, VICTREEBEL, 65, ALAKAZAM, 65, VAPOREON
 	db 1, 1, EARTHQUAKE
 	db 1, 2, ROCK_SLIDE
 	db 2, 1, TOXIC
@@ -513,23 +517,23 @@ SpecialTrainerMoves:
     db 6, 4, BLIZZARD
     db 0
 
-	db PROF_OAK, 2 ; 78, TAUROS, 77, ZAPDOS, 77, ARTICUNO, 77, MOLTRES, 78, SNORLAX, 81, NIDOKING, 0
-    db 1, 1, HYPER_BEAM
-    db 1, 2, EARTHQUAKE
-    db 1, 3, BLIZZARD
-    db 1, 4, THUNDER
+	db PROF_OAK, 2 ; 85, GENGAR, 85, ZAPDOS, 85, ARTICUNO, 85, MOLTRES, 85, SNORLAX, 85, MEWTWO, 0
+    db 1, 1, HYPNOSIS
+    db 1, 2, THUNDERBOLT
+    db 1, 3, NIGHT_SHADE
+    db 1, 4, DREAM_EATER
 	db 2, 1, THUNDER_WAVE
-	db 3, 1, BUBBLEBEAM
-    db 3, 4, REFLECT
+	db 3, 1, HYPER_BEAM
+    db 3, 4, RECOVER
     db 4, 1, FIRE_BLAST
     db 4, 2, SOLARBEAM
     db 5, 1, AMNESIA
     db 5, 2, REFLECT
     db 5, 3, REST
-	db 6, 1, EARTHQUAKE
-    db 6, 2, ROCK_SLIDE
-    db 6, 3, THUNDER
-    db 6, 4, SLUDGE
+	db 6, 1, AMNESIA
+    db 6, 2, PSYCHIC_M
+    db 6, 3, RECOVER
+    db 6, 4, ICE_BEAM
     db 0
 
 	db SMITH, 1
@@ -625,13 +629,13 @@ SpecialTrainerMoves:
     db 6, 4, DIG
 	db 0
 
-	db LORELEI, 2 ; db $FF, 70, WIGGLYTUFF, 71, STARMIE, 71, CLOYSTER, 70, OMASTAR, 70, EXEGGUTOR, 72, LAPRAS, 0
+	db LORELEI, 2 ; db $FF, 70, WIGGLYTUFF, 71, STARMIE, 71, ARTICUNO, 70, OMASTAR, 70, EXEGGUTOR, 72, LAPRAS, 0
     db 1, 4, BLIZZARD
     db 2, 1, THUNDER_WAVE
     db 2, 3, THUNDER
     db 2, 4, SURF
-    db 3, 3, TOXIC
-    db 3, 4, EXPLOSION
+    db 3, 1, RECOVER
+    db 3, 4, BUBBLEBEAM
     db 4, 1, BLIZZARD
     db 4, 3, HORN_DRILL
     db 5, 1, LEECH_SEED
@@ -699,20 +703,26 @@ SpecialTrainerMoves:
     db 6, 3, BLIZZARD
 	db 0
 
-	db RIVAL3, 4 ; db $FF, 77, ALAKAZAM, 76, MACHAMP, 75, GYARADOS, 74, PIDGEOT, 75, EXEGGUTOR, 77, ARCANINE, 0
-	db 1, 1, THUNDER_WAVE
+	db RIVAL3, 4 ; db $FF, 77, MEW, 76, MACHAMP, 75, GYARADOS, 74, TAUROS, 75, VENUSAUR, 77, ARCANINE, 0
+	db 1, 1, SWORDS_DANCE
+	db 1, 2, EARTHQUAKE
+	db 1, 3, BODY_SLAM
+	db 1, 3, EXPLOSION
     db 2, 1, ROCK_SLIDE
     db 2, 2, EARTHQUAKE
     db 2, 3, BODY_SLAM
-    db 3, 1, DOUBLE_TEAM
-    db 3, 3, BODY_SLAM
+    db 3, 1, THUNDER_WAVE
+    db 3, 2, HYDRO_PUMP
+    db 3, 3, HYPER_BEAM
     db 3, 4, BLIZZARD
-    db 4, 1, TOXIC
-    db 4, 2, HYPER_BEAM
-    db 4, 4, DOUBLE_TEAM
-    db 5, 1, REFLECT
+    db 4, 1, DOUBLE_EDGE
+    db 4, 2, EARTHQUAKE
+    db 4, 3, ROCK_SLIDE
+    db 4, 4, BLIZZARD
+    db 5, 1, MEGA_DRAIN
     db 5, 2, LEECH_SEED
-    db 5, 4, SOFTBOILED
+    db 5, 3, SLUDGE
+    db 5, 4, SLEEP_POWDER
     db 6, 1, FIRE_BLAST
     db 6, 2, BODY_SLAM
     db 6, 3, REST
