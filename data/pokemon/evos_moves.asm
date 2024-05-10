@@ -226,7 +226,7 @@ KangaskhanEvosMoves:
 	db 21, DRAGON_RAGE
 	db 24, SWORDS_DANCE
 	db 29, DIZZY_PUNCH
-	db 37, BODY_SLAM
+	db 37, SLAM
 	db 48, DOUBLE_EDGE
 	db 0
 
@@ -248,13 +248,13 @@ ClefairyEvosMoves:
 	db EVOLVE_ITEM, MOON_STONE, 1, CLEFABLE
 	db 0
 ; Learnset
-	db 13, DOUBLESLAP
+	db 13, DIZZY_PUNCH
 	db 19, MINIMIZE
-	db 26, DEFENSE_CURL
-	db 30, METRONOME
-	db 32, SING
-	db 35, BODY_SLAM
-	db 43, LIGHT_SCREEN
+	db 26, BODY_SLAM
+	db 30, SOFTBOILED
+	db 32, LOVELY_KISS
+	db 35, TRI_ATTACK
+	db 43, AMNESIA
 	db 0
 
 SpearowEvosMoves:
@@ -262,9 +262,9 @@ SpearowEvosMoves:
 	db EVOLVE_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 7, LEER
+	db 7, SHARPEN
 	db 10, FURY_ATTACK
-	db 14, FOCUS_ENERGY
+	db 14, MIRROR_MOVE
 	db 18, SWIFT
 	db 21, MIRROR_MOVE
 	db 24, DRILL_PECK
@@ -278,11 +278,11 @@ VoltorbEvosMoves:
 	db EVOLVE_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 19, THUNDERSHOCK
-	db 22, SELFDESTRUCT
-	db 26, SWIFT
-	db 30, LIGHT_SCREEN
+	db 10, SONICBOOM
+	db 13, THUNDER_WAVE
+	db 19, SELFDESTRUCT
+	db 22, SWIFT
+	db 30, TRI_ATTACK
 	db 35, THUNDERBOLT
 	db 44, EXPLOSION
 	db 50, THUNDER
@@ -1963,11 +1963,11 @@ ElectrodeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 19, THUNDERSHOCK
+	db 10, SONICBOOM
+	db 19, THUNDER_WAVE
 	db 22, SELFDESTRUCT
 	db 26, SWIFT
-	db 30, LIGHT_SCREEN
+	db 30, TRI_ATTACK
 	db 35, THUNDERBOLT
 	db 44, EXPLOSION
 	db 50, THUNDER
