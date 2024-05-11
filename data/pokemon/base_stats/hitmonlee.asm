@@ -1,6 +1,6 @@
 	db DEX_HITMONLEE ; pokedex id
 
-	db  65, 120,  70,  93,  60
+	db  65, 120, 100,  103,  60
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type
