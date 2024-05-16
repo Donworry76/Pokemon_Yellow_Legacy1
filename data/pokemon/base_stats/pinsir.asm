@@ -1,9 +1,9 @@
 	db DEX_PINSIR ; pokedex id
 
-	db  65, 125, 100,  85,  55
+	db  95, 125, 100,  85,  65
 	;   hp  atk  def  spd  spc
 
-	db BUG, BUG ; type
+	db BUG, GROUND ; type
 	db 45 ; catch rate
 	db 200 ; base exp
 
