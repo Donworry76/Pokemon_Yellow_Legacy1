@@ -569,12 +569,12 @@ ScytherEvosMoves:
 ; Learnset
 	db 6, CUT
 	db 16, SLASH
-	db 24, AGILITY
+	db 24, TWINEEDLE
 	db 30, WING_ATTACK
-	db 36, TWINEEDLE
+	db 36, AGILITY
 	db 42, VICEGRIP
-	db 48, DRILL_PECK
-	db 54, SWORDS_DANCE
+	db 46, DRILL_PECK
+	db 50, SWORDS_DANCE
 	db 0
 
 StaryuEvosMoves:
@@ -602,7 +602,7 @@ BlastoiseEvosMoves:
 	db 10, WATER_GUN
 	db 15, HEADBUTT
 	db 21, BUBBLEBEAM
-	db 27, BODY_SLAM
+	db 27, ICE_PUNCH
 	db 31, WATERFALL
 	db 36, BODY_SLAM
 	db 42, RECOVER
@@ -630,13 +630,13 @@ TangelaEvosMoves:
 	db 0
 ; Learnset
 	db 15, ABSORB
-	db 19, VINE_WHIP
+	db 19, GROWTH
 	db 21, LEECH_SEED
 	db 23, STUN_SPORE
 	db 25, SLEEP_POWDER
 	db 32, MEGA_DRAIN
 	db 42, BODY_SLAM
-	db 45, GROWTH
+	db 45, SWORDS_DANCE
 	db 48, BIND
 	db 0
 
@@ -712,10 +712,10 @@ SlowpokeEvosMoves:
 	db EVOLVE_LEVEL, 37, SLOWBRO
 	db 0
 ; Learnset
-	db 5, GROWL
-	db 5, WATER_GUN
+	db 5, KINESIS
+	db 5, DISABLE
 	db 10, CONFUSION 
-	db 18, DISABLE
+	db 18, BUBBLEBEAM
 	db 22, HEADBUTT
 	db 25, PSYBEAM
 	db 28, WATERFALL
@@ -761,7 +761,7 @@ ChanseyEvosMoves:
 	db 30, REFLECT
 	db 38, MINIMIZE
 	db 44, SOFTBOILED
-	db 48, ICE_BEAM
+	db 48, METRONOME
 	db 50, SEISMIC_TOSS
 	db 54, THUNDER_WAVE
 	db 0
@@ -1047,11 +1047,11 @@ FarfetchdEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEER
+	db 7, FURY_ATTACK
 	db 9, SHARPEN
-	db 13, FURY_ATTACK
+	db 13, RAZOR_LEAF
 	db 18, WING_ATTACK
-	db 23, SLASH
+	db 23, SUBMISSION
 	db 28, SWORDS_DANCE
 	db 31, DRILL_PECK
 	db 39, AGILITY
@@ -1499,16 +1499,16 @@ EeveeEvosMoves:
 	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
 	db 0
 ; Learnset
-	db 6, TAIL_WHIP
+	db 6, SHARPEN
 	db 8, SAND_ATTACK
 	db 9, BITE
 	db 10, QUICK_ATTACK
 	db 14, DOUBLE_KICK
 	db 17, HEADBUTT
 	db 22, DIG
-	db 30, BODY_SLAM
-	db 36, JUMP_KICK
-	db 42, REST
+	db 26, BODY_SLAM
+	db 32, JUMP_KICK
+	db 36, RECOVER
 	db 0
 
 FlareonEvosMoves:
@@ -1578,10 +1578,10 @@ ZubatEvosMoves:
 	db EVOLVE_LEVEL, 22, GOLBAT
 	db 0
 ; Learnset
-	db 5, SUPERSONIC
+	db 5, CONFUSE_RAY
 	db 7, GUST
 	db 12, BITE
-	db 19, CONFUSE_RAY
+	db 19, ACID
 	db 23, WING_ATTACK
 	db 27, ACID
 	db 36, SLUDGE
@@ -1851,13 +1851,13 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, SUPERSONIC
-	db 7, GUST
+	db 5, CONFUSE_RAY
 	db 12, BITE
-	db 19, CONFUSE_RAY
+	db 19, ACID
 	db 22, WING_ATTACK
 	db 27, SLUDGE
-	db 36, DOUBLE_EDGE
+	db 32, DOUBLE_EDGE
+	db 36, SUPER_FANG
 	db 46, MEGA_DRAIN
 	db 0
 
@@ -1995,7 +1995,7 @@ WeezingEvosMoves:
 	db 33, SLUDGE
 	db 38, AMNESIA
 	db 40, FLAMETHROWER
-	db 45, HYPER_BEAM
+	db 45, NIGHT_SHADE
 	db 48, EXPLOSION
 	db 0
 
