@@ -66,10 +66,10 @@ Moves:
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE,         100, 15
 	move MIST,         MIST_EFFECT,                  0, ICE,          100, 30
 	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,        100, 25
-	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,         85, 10
+	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       130, WATER,         90, 10
 	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,        100, 15
 	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          95, ICE,          100, 10
-	move BLIZZARD,     FREEZE_SIDE_EFFECT,         120, ICE,           85,  5
+	move BLIZZARD,     FREEZE_SIDE_EFFECT,         130, ICE,           90,  5
 	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       65, PSYCHIC_TYPE, 100, 20
 	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,        100, 20
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,          100, 20
@@ -97,7 +97,7 @@ Moves:
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC,     100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,     100, 20
-	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,      85, 5
+	move THUNDER,      PARALYZE_SIDE_EFFECT1,      130, ELECTRIC,      90, 5
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,         95, 25
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
 	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
@@ -136,15 +136,15 @@ Moves:
 	move SMOG,         POISON_SIDE_EFFECT2,         45, POISON,        80, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         90, POISON,       100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,       100, 20
-	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
+	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          130, FIRE,          90,  5
 	move WATERFALL,    FLINCH_SIDE_EFFECT1,         80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         85, 10
 	move SWIFT,        SWIFT_EFFECT,                70, NORMAL,       100, 20
-	move SKULL_BASH,   HYPER_BEAM_EFFECT,          100, NORMAL,       100, 15
+	move SKULL_BASH,   HYPER_BEAM_EFFECT,          100, GHOST,        100, 15
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  25, WATER,        100, 15
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      40, NORMAL,       100, 35
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, BIRD,         100, 20
-	move KINESIS,      ACCURACY_DOWN1_EFFECT,        0, BIRD,         80,  15
+	move KINESIS,      ACCURACY_DOWN1_EFFECT,        0, BIRD,        100,  15
 	move SOFTBOILED,   HEAL_EFFECT,                  0, BIRD,         100, 5
 	move HI_JUMP_KICK, JUMP_KICK_EFFECT,           120, FIGHTING,      90, 20
 	move GLARE,        PARALYZE_EFFECT,              0, BIRD,          90, 30
