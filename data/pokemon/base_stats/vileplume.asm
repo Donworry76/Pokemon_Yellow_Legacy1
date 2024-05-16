@@ -1,6 +1,6 @@
 	db DEX_VILEPLUME ; pokedex id
 
-	db  90,  80,  85,  50, 100
+	db  90,  70,  85,  50, 120
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
