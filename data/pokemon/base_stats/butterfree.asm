@@ -1,6 +1,6 @@
 	db DEX_BUTTERFREE ; pokedex id
 
-	db  60,  45,  50,  70,  90
+	db  80,  55,  80,  80, 100
 	;   hp  atk  def  spd  spc
 
 	db BUG, PSYCHIC_TYPE ; type
