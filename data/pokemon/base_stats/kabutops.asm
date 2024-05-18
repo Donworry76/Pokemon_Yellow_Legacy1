@@ -3,7 +3,7 @@
 	db  70, 125, 105,  80,  70
 	;   hp  atk  def  spd  spc
 
-	db BUG, WATER ; type
+	db BUG, ROCK ; type
 	db 45 ; catch rate
 	db 201 ; base exp
 
