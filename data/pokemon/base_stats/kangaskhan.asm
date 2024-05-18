@@ -3,7 +3,7 @@
 	db 105,  95, 100,  90,  70
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, DRAGON ; type
 	db 45 ; catch rate
 	db 175 ; base exp
 
