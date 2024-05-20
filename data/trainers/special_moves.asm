@@ -70,13 +70,14 @@ SpecialTrainerMoves:
 	db 6, 4, THUNDER_WAVE
 	db 0
 
-	db ERIKA, 1 ; db $FF, 33, TANGELA, 34, VICTREEBEL, 31, IVYSAUR, 35, VILEPLUME, 0
+	db ERIKA, 1 ; db $FF, 35, TANGELA, 34, CHANSEY, 34, VENUSAUR, 35, VILEPLUME, 0
 	db 1, 1, LEECH_SEED
 	db 1, 2, BODY_SLAM
 	db 2, 1, MEGA_DRAIN
-	db 3, 1, PETAL_DANCE
-	db 3, 2, SLUDGE
-	db 3, 3, LEECH_SEED
+	db 3, 1, EGG_BOMB
+	db 3, 2, PSYCHIC_M
+	db 3, 3, SOFTBOILED	
+	db 3, 4, LOVELY_KISS
 	db 4, 1, SLUDGE
 	db 4, 2, MEGA_DRAIN
 	db 4, 3, PETAL_DANCE
@@ -105,31 +106,19 @@ SpecialTrainerMoves:
     db 0
 
 	db ERIKA, 4
-	db 1, 3, STUN_SPORE
-	db 2, 2, LEECH_SEED
-	db 2, 3, SLEEP_POWDER
-	db 2, 4, RAZOR_LEAF
-	db 3, 1, LEECH_LIFE
-	db 3, 3, SOLARBEAM
+	db 2, 1, HYPNOSIS
+	db 3, 3, LEECH_LIFE
 	db 4, 1, MEGA_DRAIN
 	db 4, 2, SUBSTITUTE
-	db 5, 1, MEGA_DRAIN
-	db 5, 3, GROWTH
-	db 6, 2, LEECH_SEED
-	db 6, 3, SUBSTITUTE
-	db 6, 4, MEGA_DRAIN
+	db 6, 3, SWORDS_DANCE
     db 0
 
-	db KOGA, 1 ; 42, GOLBAT, 42, MUK, 41, TENTACRUEL, 43, VENOMOTH, 0
+	db KOGA, 1 ; 44, ELECTRODE, 42, MUK, 43, TENTACRUEL, 43, HYPNO, 44, MAROWAK, 0
 	db 1, 1, THUNDER_WAVE
-	db 2, 1, ACID_ARMOR
-	db 2, 3, MEGA_DRAIN
+	db 2, 1, RECOVER
 	db 3, 1, SURF
 	db 3, 2, ICE_BEAM
-	db 3, 4, SLUDGE
-	db 4, 1, SOLARBEAM
-	db 4, 2, DOUBLE_TEAM
-	db 4, 3, TOXIC
+	db 4, 1, AMNESIA
 	db 0
 
 	db KOGA, 2 ; 49, GOLBAT, 48, MUK, 49, TENTACRUEL, 48, WEEZING, 50, VENOMOTH, 0
@@ -187,7 +176,7 @@ SpecialTrainerMoves:
 	db 1, 3, SOLARBEAM
 	db 1, 4, HORN_DRILL
 	db 2, 4, DIG
-	db 3, 1, FLAMETRHOWER
+	db 3, 1, FLAMETHROWER
 	db 3, 2, RECOVER
 	db 3, 3, SUBSTITUTE
 	db 3, 4, SKY_ATTACK
@@ -312,7 +301,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db BRUNO, 1 ; 57, MAGMAR, 56, POLIWRATH, 57, ELECTABUZZ, 56, RHYDON, 58, MACHAMP
-	db 1, 1, FLAME_BLAST
+	db 1, 1, FIRE_BLAST
 	db 1, 2, BODY_SLAM
 	db 1, 3, CONFUSE_RAY
 	db 1, 4, PSYCHIC_M
