@@ -151,7 +151,7 @@ EvosMovesPointerTable:
 	dw CloysterEvosMoves
 	dw MissingNo8CEvosMoves
 	dw ElectrodeEvosMoves
-	dw ableEvosMoves
+	dw ClefableEvosMoves
 	dw WeezingEvosMoves
 	dw PersianEvosMoves
 	dw MarowakEvosMoves
@@ -846,7 +846,7 @@ ParasectEvosMoves:
 	db 28, SPORE
 	db 32, NIGHT_SHADE
 	db 36, VICEGRIP
-	db 45, BDOY_SLAM
+	db 45, BODY_SLAM
 	db 0
 
 PsyduckEvosMoves:
@@ -1082,6 +1082,7 @@ DragoniteEvosMoves:
 	db 58, WRAP
 	db 60, HYPER_BEAM
 	db 62, RECOVER
+	db 0
 
 MissingNo43EvosMoves:
 ; Evolutions
@@ -1707,7 +1708,7 @@ PrimeapeEvosMoves:
 	db 27, BODY_SLAM
 	db 31, SWORDS_DANCE
 	db 36, HI_JUMP_KICK
-	db 42, ROCKS_SLIDE
+	db 42, ROCK_SLIDE
 	db 48, EARTHQUAKE
 	db 53, SLAM
 	db 0
