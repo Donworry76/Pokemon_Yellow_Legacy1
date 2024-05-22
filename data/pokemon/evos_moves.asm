@@ -1238,12 +1238,12 @@ VulpixEvosMoves:
 	db EVOLVE_ITEM, FIRE_STONE, 1, NINETALES
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
+	db 7, HYPNOSIS
 	db 13, CONFUSE_RAY
 	db 16, FIRE_SPIN
 	db 23, GROWTH
 	db 32, FLAMETHROWER
-	db 37, NIGHT_SHADE
+	db 37, PSYCHIC_M
 	db 42, FIRE_SPIN
 	db 0
 
@@ -1251,13 +1251,13 @@ NinetalesEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
+	db 7, HYPNOSIS
 	db 13, CONFUSE_RAY
 	db 16, FIRE_SPIN
 	db 25, GROWTH
 	db 32, FLAMETHROWER
-	db 40, NIGHT_SHADE
-	db 45, PSYCHIC_M
+	db 40, PSYCHIC_M
+	db 45, NIGHT_SHADE
 	db 0
 
 PikachuEvosMoves:
@@ -1441,7 +1441,7 @@ OmanyteEvosMoves:
 	db 15, BUBBLEBEAM
 	db 18, AURORA_BEAM
 	db 22, MEGA_DRAIN
-	db 25, HORN_ATTACK
+	db 25, BDOY_SLAM
 	db 27, SPIKE_CANNON
 	db 30, LEECH_SEED
 	db 37, ROCK_SLIDE
@@ -1454,7 +1454,7 @@ OmastarEvosMoves:
 ; Learnset
 	db 15, AURORA_BEAM
 	db 18, BUBBLEBEAM
-	db 22, HORN_ATTACK
+	db 22, BDOY_SLAM
 	db 25, MEGA_DRAIN
 	db 27, SPIKE_CANNON
 	db 30, LEECH_SEED
@@ -2336,7 +2336,7 @@ AerodactylEvosMoves:
 	db 27, BODY_SLAM
 	db 32, ROCK_SLIDE
 	db 40, SKY_ATTACK
-	db 43, HYPER_BEAM
+	db 43, DOUBLE_EDGE
 	db 50, EARTHQUAKE
 	db 0
 
@@ -2526,7 +2526,7 @@ VileplumeEvosMoves:
 	db 25, MEGA_DRAIN
 	db 30, AMNESIA
 	db 35, PETAL_DANCE
-	db 40, SLUDGE
+	db 40, NIGHT_SHADE
 	db 50, SOLARBEAM
 	db 0
 
