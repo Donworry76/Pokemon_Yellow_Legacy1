@@ -4,12 +4,12 @@ Route19WildMons:
 
 	def_water_wildmons 5 ; encounter rate
 	db 20, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db  5, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACOOL
-	db 25, TENTACOOL
+	db 20, SEEL
+	db 25, SEEL
+	db  5, MAGIKARP
+	db 30, GOLDEEN
+	db 20, POLIWHIRL
+	db 25, HORSEA
 	db 30, TENTACRUEL
 	db 35, TENTACRUEL
 	db 40, TENTACRUEL
