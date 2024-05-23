@@ -1,9 +1,9 @@
 Route13WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 25, ODDISH
-	db 25, BELLSPROUT
+	db 25, SCYTHER
+	db 25, ARBOK
 	db 28, PIDGEOTTO
-	db 28, PIDGEY
+	db 28, SANDSLASH
 	db 27, GLOOM
 	db 27, SCYTHER
 	db 29, WEEPINBELL
