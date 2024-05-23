@@ -9,7 +9,7 @@ CeruleanCave2FWildMons:
 	db 64, MAGNETON
 	db 63, CHANSEY
 	db 64, RAICHU
-	db 65, RAICHU
+	db 65, MEW
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
