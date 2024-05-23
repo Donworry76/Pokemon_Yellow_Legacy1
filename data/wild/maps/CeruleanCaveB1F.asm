@@ -7,9 +7,9 @@ CeruleanCaveB1FWildMons:
 	db 65, PARASECT
 	db 60, SLOWBRO
 	db 64, KADABRA
-	db 63, DITTO
-	db 64, DITTO
-	db 65, ALAKAZAM
+	db 63, ALAKAZAM
+	db 64, ALAKAZAM
+	db 65, MEW
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
