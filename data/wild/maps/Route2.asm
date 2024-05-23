@@ -1,15 +1,15 @@
 Route2WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db  5, RATTATA
-	db  5, PIDGEY
+	db  5, SANDSHREW
+	db  5, CUBONE
 	db  6, NIDORAN_F
 	db  6, NIDORAN_M
 	db  5, VULPIX
-	db  6, PIDGEY
-	db  7, VULPIX
-	db  8, RATTATA
-	db  8, PIDGEY
-	db  8, PIDGEY
+	db  6, MANKEY
+	db  7, GROWLITHE
+	db  8, DIGLETT
+	db  8, PSYDUCK
+	db  8, MEOWTH
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
