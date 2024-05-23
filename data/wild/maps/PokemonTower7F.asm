@@ -6,7 +6,7 @@ PokemonTower7FWildMons:
 	db 27, GASTLY
 	db 28, GASTLY
 	db 23, GASTLY
-	db 24, CUBONE
+	db 30, MAROWAK
 	db 28, HAUNTER
 	db 29, HAUNTER
 	db 32, GENGAR
