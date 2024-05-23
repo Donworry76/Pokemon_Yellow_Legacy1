@@ -1,11 +1,11 @@
 Route23WildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 44, NIDORINO
-	db 44, NIDORINA
-	db 51, PRIMEAPE
+	db 44, JOLTEON
+	db 44, VAPOREON
+	db 44, FLAREON
 	db 49, NIDOKING
 	db 49, NIDOQUEEN
-	db 50, FEAROW
+	db 50, PRIMEAPE
 	db  5, SQUIRTLE
 	db  5, BULBASAUR
 	db  5, CHARMANDER
