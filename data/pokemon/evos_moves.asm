@@ -221,13 +221,13 @@ KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, MEGA_PUNCH
+	db 7, DIZZY_PUNCH
 	db 15, LOW_KICK
 	db 21, DRAGON_RAGE
 	db 24, SWORDS_DANCE
-	db 29, DIZZY_PUNCH
-	db 37, SLAM
-	db 48, DOUBLE_EDGE
+	db 29, SLAM
+	db 37, DOUBLE_EDGE
+	db 48, EARTHQUAKE
 	db 0
 
 NidoranMEvosMoves:
@@ -307,7 +307,6 @@ SlowbroEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, GROWL
 	db 5, WATER_GUN
 	db 10, CONFUSION 
 	db 18, DISABLE
@@ -317,6 +316,7 @@ SlowbroEvosMoves:
 	db 36, RECOVER
 	db 40, AMNESIA
 	db 45, PSYCHIC_M
+	db 50, THUNDER_WAVE
 	db 0
 
 IvysaurEvosMoves:
@@ -325,21 +325,21 @@ IvysaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 9, VINE_WHIP
+	db 9, ABSORB
+	db 12, HEADBUTT
+	db 15, TOXIC
 	db 16, ACID
-	db 22, TOXIC
-	db 25, RAZOR_LEAF
+	db 22, RAZOR_LEAF
+	db 25, BODY_SLAM
 	db 29, SLEEP_POWDER
 	db 38, GROWTH
-	db 42, BODY_SLAM
-	db 54, SOLARBEAM
 	db 0
 
 ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, POISONPOWDER
+	db 10, TOXIC
 	db 13, LEECH_SEED
 	db 19, PSYBEAM
 	db 20, MEGA_DRAIN
@@ -369,7 +369,7 @@ ExeggcuteEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
-	db 10, POISONPOWDER
+	db 10, TOXIC
 	db 13, LEECH_SEED
 	db 19, PSYBEAM
 	db 20, MEGA_DRAIN
@@ -844,7 +844,7 @@ ParasectEvosMoves:
 	db 13, LEECH_LIFE
 	db 24, SWORDS_DANCE
 	db 28, SPORE
-	db 32, NIGHT_SHADE
+	db 32, MEGA_DRAIN
 	db 36, VICEGRIP
 	db 45, BODY_SLAM
 	db 0
@@ -872,7 +872,7 @@ DrowzeeEvosMoves:
 	db 12, CONFUSE_RAY
 	db 17, PSYBEAM
 	db 24, KINESIS
-	db 29, POISON_GAS
+	db 29, TOXIC
 	db 32, PSYCHIC_M
 	db 37, MEDITATE
 	db 40, HYPNOSIS
@@ -1062,10 +1062,10 @@ VenonatEvosMoves:
 	db EVOLVE_LEVEL, 31, VENOMOTH
 	db 0
 ; Learnset
-	db 11, SUPERSONIC
-	db 13, LEECH_LIFE
-	db 17, CONFUSION
-	db 20, POISONPOWDER
+	db 11, CONFUSE_RAY
+	db 13, CONFUSION
+	db 17, LEECH_LIFE
+	db 20, PSYBEAM
 	db 29, STUN_SPORE
 	db 33, PSYBEAM
 	db 36, SLEEP_POWDER
@@ -1579,7 +1579,7 @@ ZubatEvosMoves:
 	db 0
 ; Learnset
 	db 5, CONFUSE_RAY
-	db 7, GUST
+	db 7, TOXIC
 	db 12, BITE
 	db 19, ACID
 	db 23, WING_ATTACK
@@ -1611,7 +1611,7 @@ ParasEvosMoves:
 	db 6, STUN_SPORE
 	db 8, LEECH_SEED
 	db 10, LEECH_LIFE
-	db 13, POISONPOWDER
+	db 13, TOXIC
 	db 24, SPORE
 	db 27, MEGA_DRAIN
 	db 30, SLASH
@@ -1732,7 +1732,7 @@ VenomothEvosMoves:
 ; Learnset
 	db 13, LEECH_LIFE
 	db 17, PSYBEAM
-	db 20, POISONPOWDER
+	db 20, TOXIC
 	db 25, ACID
 	db 29, SLEEP_POWDER
 	db 33, PSYCHIC_M
@@ -1789,7 +1789,7 @@ ButterfreeEvosMoves:
 ; Learnset
 	db 10, CONFUSION
 	db 12, LEECH_LIFE
-	db 13, POISONPOWDER
+	db 13, TOXIC
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
 	db 18, PSYBEAM
@@ -1851,14 +1851,14 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, CONFUSE_RAY
+	db 5, TOXIC
 	db 12, BITE
 	db 22, WING_ATTACK
 	db 27, SLUDGE
 	db 32, DOUBLE_EDGE
 	db 36, SUPER_FANG
 	db 46, MEGA_DRAIN
-	db 51, RECOVER
+	db 51, HYPNOSIS
 	db 0
 
 MewtwoEvosMoves:
@@ -2109,10 +2109,10 @@ BulbasaurEvosMoves:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0
 ; Learnset
-	db 7, VINE_WHIP
+	db 7, ABSORB
 	db 9, LEECH_SEED
-	db 22, POISONPOWDER
-	db 25, SLEEP_POWDER
+	db 12, HEADBUTT
+	db 15, TOXIC
 	db 29, RAZOR_LEAF
 	db 38, GROWTH
 	db 42, BODY_SLAM
@@ -2379,7 +2379,7 @@ CharmanderEvosMoves:
 	db EVOLVE_LEVEL, 16, CHARMELEON
 	db 0
 ; Learnset
-	db 7, EMBER
+	db 7, BITE
 	db 11, SMOKESCREEN
 	db 17, RAGE
 	db 19, FIRE_PUNCH
@@ -2396,7 +2396,7 @@ SquirtleEvosMoves:
 	db 0
 ; Learnset
 	db 7, BARRIER
-	db 10, WATER_GUN
+	db 9, WATER_GUN
 	db 15, HEADBUTT
 	db 21, BUBBLEBEAM
 	db 27, BODY_SLAM
@@ -2485,7 +2485,7 @@ OddishEvosMoves:
 	db EVOLVE_LEVEL, 21, GLOOM
 	db 0
 ; Learnset
-	db 5, POISONPOWDER
+	db 5, TOXIC
 	db 8, LEECH_SEED
 	db 13, ABSORB
 	db 16, SLEEP_POWDER
@@ -2502,7 +2502,7 @@ GloomEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, VILEPLUME
 	db 0
 ; Learnset
-	db 5, POISONPOWDER
+	db 5, TOXIC
 	db 8, LEECH_SEED
 	db 13, ABSORB
 	db 16, SLEEP_POWDER
@@ -2518,7 +2518,7 @@ VileplumeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, POISONPOWDER
+	db 5, TOXIC
 	db 8, LEECH_SEED
 	db 13, ABSORB
 	db 16, SLEEP_POWDER
@@ -2535,7 +2535,7 @@ BellsproutEvosMoves:
 	db EVOLVE_LEVEL, 21, WEEPINBELL
 	db 0
 ; Learnset
-	db 13, POISONPOWDER
+	db 13, TOXIC
 	db 21, STUN_SPORE
 	db 25, ACID
 	db 27, HEADBUTT
@@ -2563,7 +2563,7 @@ VictreebelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, POISONPOWDER
+	db 13, TOXIC
 	db 14, VINE_WHIP
 	db 21, STUN_SPORE
 	db 25, ACID
