@@ -9,7 +9,7 @@ CeruleanCave1FWildMons:
 	db 64, VILEPLUME
 	db 63, VICTREEBEL
 	db 64, RAICHU
-	db 65, RAICHU
+	db 65, MEW
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
