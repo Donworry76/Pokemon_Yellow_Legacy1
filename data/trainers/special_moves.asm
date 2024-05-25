@@ -553,104 +553,68 @@ SpecialTrainerMoves:
     db 6, 4, DIG
 	db 0
 
-	db LORELEI, 2 ; db $FF, 70, WIGGLYTUFF, 71, STARMIE, 71, ARTICUNO, 70, OMASTAR, 70, EXEGGUTOR, 72, LAPRAS, 0
-    db 1, 4, BLIZZARD
-    db 2, 1, THUNDER_WAVE
-    db 2, 3, THUNDER
+	db LORELEI, 2 ; db $FF, 75, CHANSEY, 75, STARMIE, 75, ARTICUNO, 75, OMASTAR, 75, NIDOQUEEN, 75, LAPRAS, 0
+    db 1, 2, THUNDERBOLT
     db 2, 4, SURF
     db 3, 1, RECOVER
-    db 3, 4, BUBBLEBEAM
-    db 4, 1, BLIZZARD
-    db 4, 3, HORN_DRILL
-    db 5, 1, LEECH_SEED
+    db 3, 3, BUBBLEBEAM
+    db 4, 2, BLIZZARD
+    db 4, 3, MEGA_DRAIN
+    db 5, 1, BLIZZARD
+    db 5, 2, LOVELY_KISS
+    db 5, 3, THUNDERBOLT
     db 6, 1, CONFUSE_RAY
     db 6, 2, PSYCHIC_M
     db 6, 3, SURF
 	db 0
 
-	db BRUNO, 2 ; db $FF, 71, CLEFABLE, 71, MUK, 70, SLOWBRO, 72, HITMONLEE, 72, RHYDON, 73, MACHAMP, 0
+	db BRUNO, 2 ; db $FF, 75, CLEFABLE, 75, MUK, 75, BLASTOISE, 75, CHARIZARD, 75, PINSIR, 75, MACHAMP, 0
 	db 1, 1, SOFTBOILED
     db 1, 2, PSYCHIC_M
     db 1, 3, ICE_BEAM
     db 1, 4, THUNDERBOLT
     db 2, 3, MINIMIZE
     db 2, 4, FIRE_BLAST
-    db 3, 1, DOUBLE_TEAM
-    db 3, 2, SURF
-    db 4, 1, BODY_SLAM
-    db 4, 2, DOUBLE_TEAM
-    db 4, 4, METRONOME
-    db 5, 3, BODY_SLAM
-    db 5, 4,SURF
-    db 6, 1, EARTHQUAKE
-    db 6, 2, HYPER_BEAM
-    db 6, 3, ROCK_SLIDE
+    db 3, 3, BLIZZARD
+    db 5, 1, LEECH_LIFE
 	db 0
 
-	db AGATHA, 2 ; db $FF, 71, JYNX, 71, GYARADOS, 72, ALAKAZAM, 71, VENUSAUR, 72, ARBOK, 73, GENGAR, 0
-    db 1, 2, LOVELY_KISS
-    db 1, 3, REFLECT
-    db 2, 1, FIRE_BLAST
-    db 2, 2, THUNDERBOLT
-    db 2, 3, SURF
-    db 3, 1, THUNDER_WAVE
-    db 3, 4, SUBSTITUTE
-    db 4, 1, SLEEP_POWDER
-    db 4, 2, DOUBLE_EDGE
-    db 4, 3, LEECH_SEED
-    db 5, 2, EARTHQUAKE
-    db 6, 1, CONFUSE_RAY
-    db 6, 3, EXPLOSION
+	db AGATHA, 2 ; db $FF, 75, HYPNO, 75, VILEPLUME, 75, MAROWAK, 75, ALAKAZAM, 75, WEEZING, 75, GENGAR, 0
+    db 1, 1, SEISMIC_TOSS
+    db 2, 1, SPORE
+    db 2, 2, LEECH_SEED
+    db 5, 2, FIRE_BLAST
+    db 5, 3, THUNDERBOLT
+    db 6, 2, MEGA_DRAIN
     db 6, 4, THUNDERBOLT
 	db 0
 
-	db LANCE, 2 ; db $FF, 73, ARCANINE, 73, ELECTABUZZ, 74, SNORLAX, 74, CHARIZARD, 72, KANHASKHAN, 75, DRAGONITE, 0
-	db 1, 1, DRAGON_RAGE
-    db 1, 2, FIRE_BLAST
-    db 1, 3, HYPER_BEAM
-    db 1, 4, DIG
-    db 2, 1, THUNDER_WAVE
-    db 2, 4, PSYCHIC_M
-    db 3, 1, SELFDESTRUCT
-    db 3, 2, EARTHQUAKE
-    db 3, 3, REFLECT
-    db 4, 1, SLASH
-    db 4, 2, FIRE_BLAST
-    db 4, 3, EARTHQUAKE
-    db 4, 4, DOUBLE_TEAM
-    db 5, 1, HYPER_BEAM
-    db 5, 2, SUBMISSION
-    db 5, 3, EARTHQUAKE
-    db 5, 4, ROCK_SLIDE
-    db 6, 1, THUNDER
-    db 6, 2, THUNDER_WAVE
-    db 6, 3, BLIZZARD
+	db LANCE, 2 ; db $FF, ZAPDOS, 75, MACHAMP, 75, ARTICUNO, 75, TAUROS, 75, MOLTRES, 75, DRAGONITE, 0
+	db 1, 1, THUNDERBOLT
+    db 1, 2, THUNDER_WAVE
+    db 1, 3, DRILL_PECK
+    db 1, 4, RECOVER
+    db 3, 1, RECOVER
+    db 3, 3, DOUBLE_EDGE
+    db 4, 1, BLIZZARD
+    db 5, 1, RECOVER
+    db 5, 3, HYPER_BEAM
+    db 5, 4, AGILITY
+    db 6, 1, BLIZZARD
+    db 6, 4, THUNDER_WAVE
 	db 0
 
-	db RIVAL3, 4 ; db $FF, 77, MEW, 76, MACHAMP, 75, GYARADOS, 74, TAUROS, 75, VENUSAUR, 77, ARCANINE, 0
-	db 1, 1, SWORDS_DANCE
-	db 1, 2, EARTHQUAKE
+	db RIVAL3, 4 ; db $FF,  MEW, 75, MOLTRES, 75, PARASECT, 75, TENTACRUEL, 75, DRAGONITE, 77, MEWTWO, 0
 	db 1, 3, BODY_SLAM
-	db 1, 3, EXPLOSION
-    db 2, 1, ROCK_SLIDE
-    db 2, 2, EARTHQUAKE
-    db 2, 3, BODY_SLAM
-    db 3, 1, THUNDER_WAVE
-    db 3, 2, HYDRO_PUMP
-    db 3, 3, HYPER_BEAM
-    db 3, 4, BLIZZARD
-    db 4, 1, DOUBLE_EDGE
-    db 4, 2, EARTHQUAKE
-    db 4, 3, ROCK_SLIDE
-    db 4, 4, BLIZZARD
-    db 5, 1, MEGA_DRAIN
-    db 5, 2, LEECH_SEED
-    db 5, 3, SLUDGE
-    db 5, 4, SLEEP_POWDER
-    db 6, 1, FIRE_BLAST
-    db 6, 2, BODY_SLAM
-    db 6, 3, REST
-    db 6, 4, DIG
+	db 1, 4, THUNDER_WAVE
+    db 2, 1, RECOVER
+    db 3, 2, SWORDS_DANCE
+    db 3, 3, LEECH_LIFE
+    db 5, 4, SLAM
+    db 6, 1, PSYCHIC_M
+    db 6, 2, AMNESIA
+    db 6, 3, THUNDERBOLT
+    db 6, 4, ICE_BEAM
 	db 0
 
 	db -1 ; end
