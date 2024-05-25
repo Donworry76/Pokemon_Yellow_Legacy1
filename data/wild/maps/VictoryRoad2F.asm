@@ -6,7 +6,7 @@ VictoryRoad2FWildMons:
 	db 46, MACHAMP
 	db 44, GOLBAT
 	db 45, GOLEM
-	db 45, VICTREBELL
+	db 45, VICTREEBEL
 	db 47, RHYDON
 	db 48, HITMONLEE
 	db 48, HITMONLEE
