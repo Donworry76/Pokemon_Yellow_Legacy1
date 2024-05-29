@@ -7,7 +7,7 @@ Route21WildMons:
 	db 27, MR_MIME
 	db 25, VILEPLUME
 	db 25, RATICATE
-	db 27, VICTREBEEL
+	db 27, VICTREEBEL
 	db 29, PIDGEOTTO
 	db 30, PIDGEOT
 	end_grass_wildmons
