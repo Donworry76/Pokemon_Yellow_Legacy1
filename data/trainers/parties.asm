@@ -64,10 +64,10 @@ TrainerDataPointers:
 
 YoungsterData:
 ; Route 3
-	db 11, RATTATA, EKANS, 0
-	db 14, SPEAROW, 0
+	db 12, RATTATA, EKANS, 0
+	db 14, PIDGEOTTO, 0
 ; Mt. Moon 1F
-	db 10, VOLTORB, SANDSHREW, ZUBAT, 0
+	db 12, VOLTORB, SANDSHREW, ZUBAT, 0
 ; Route 24
 	db 14, RATTATA, EKANS, DROWZEE, 0
 ; Route 25
@@ -88,18 +88,18 @@ YoungsterData:
 
 BugCatcherData:
 ; Viridian Forest
-	db 6, CATERPIE, WEEDLE, CATERPIE, 0
+	db 6, PARAS, KRABBY, VENONAT, 0
 	db $FF, 7, METAPOD, 6, CATERPIE, 7, KAKUNA, 0
-	db $FF, 9, PINSIR, 9, METAPOD, 0
+	db $FF, 9, PINSIR, 9, BEEDRILL, 0
 ; Route 3
 	db $FF, 8, METAPOD, 8, KAKUNA, 10, BUTTERFREE, 0
-	db 9, WEEDLE, KAKUNA, CATERPIE, METAPOD, 0
-	db 9, METAPOD, PARAS, METAPOD, 0
+	db 10, WEEDLE, KAKUNA, VENONAT, METAPOD, 0
+	db 10, KRABBY, PARAS, SCYTHER, 0
 ; Mt. Moon 1F
-	db 10, WEEDLE, BEEDRILL, 0
-	db 10, CATERPIE, BUTTERFREE,  0
+	db 12, KABUTO, BEEDRILL, 0
+	db 12, PARAS, BUTTERFREE,  0
 ; Route 24
-	db 13, BUTTERFREE, BEEDRILL, 0
+	db 14, BUTTERFREE, BEEDRILL, 0
 ; Route 6
 	db 18, BUTTERFREE, BEEDRILL, 0
 	db 18, VENONAT, SCYTHER, 0
@@ -155,7 +155,7 @@ SailorData:
 	db 18, HORSEA, STARYU, KRABBY, 0
 	db 20, MACHOP, 0
 ; Vermilion Gym
-	db 24, MAGNEMITE, 0
+	db 24, MAGNETON, 0
 
 JrTrainerMData:
 ; Pewter Gym
@@ -226,7 +226,7 @@ PokemaniacData:
 ; Rock Tunnel B1F
 	db 25, DITTO, LICKITUNG, NIDOQUEEN, 0
 	db 26, CHARMELEON, MAROWAK, 0
-	db 25, RAICHU, 0
+	db 28, RAICHU, 0
 ; Victory Road 2F
 	db 52, VENUSAUR, LAPRAS, LICKITUNG, 0
 ; Rock Tunnel 1F
@@ -234,7 +234,7 @@ PokemaniacData:
 
 SuperNerdData:
 ; Mt. Moon 1F
-	db 11, MAGNEMITE, VOLTORB, 0
+	db 12, MAGNEMITE, VOLTORB, 0
 ; Mt. Moon B2F
 	db 15, LICKITUNG, PORYGON, DITTO, 0
 ; Route 8
@@ -253,7 +253,7 @@ SuperNerdData:
 
 HikerData:
 ; Mt. Moon 1F
-	db 10, GEODUDE, GEODUDE, ONIX, 0
+	db 11, GEODUDE, GEODUDE, ONIX, 0
 ; Route 25
 	db 16, MACHOP, OMANYTE, 0
 	db 15, GEODUDE, ZUBAT, MACHOP, GEODUDE, 0
@@ -262,15 +262,15 @@ HikerData:
 	db 24, GEODUDE, ONIX, 0
 	db 22, GEODUDE, MACHOP, GEODUDE, 0
 ; Route 10
-	db 25, ZUBAT, ONIX, GOLBAT, 0
+	db 25, GOLBAT, ONIX, AERODACTYL, 0
 	db 27, RHYHORN, DUGTRIO, 0
 ; Rock Tunnel B1F
 	db 24, GEODUDE, GEODUDE, GRAVELER, 0
 	db 26, GRAVELER, 0
 ; Route 9/Rock Tunnel B1F
-	db 23, MACHOP, ONIX, 0
+	db 23, HITMONLEE, ONIX, 0
 ; Rock Tunnel 1F
-	db $FF, 24, MACHOP, 25, MACHOKE, 0
+	db $FF, 24, GRAVELER, 25, MACHOKE, 0
 	db 24, ONIX, SANDSHREW, ONIX, 0
 	db $FF, 24, DUGTRIO, 25, AERODACTYL, 0
 ; Victory Road - Sable
@@ -666,7 +666,7 @@ BrunoData:
 	db $FF, 75, CLEFABLE, 75, MUK, 75, BLASTOISE, 75, CHARIZARD, 75, PINSIR, 75, MACHAMP, 0
 
 BrockData:
-	db $FF, 10, KABUTO, 12, ONIX, 12, Vulpix, 0
+	db $FF, 10, KABUTO, 12, ONIX, 12, VULPIX, 0
 ; Rematch
 	db $FF, 64, OMASTAR, 65, ONIX, 64, KABUTOPS, 64, GOLEM, 64, NINETALES, 65, AERODACTYL, 0
 
