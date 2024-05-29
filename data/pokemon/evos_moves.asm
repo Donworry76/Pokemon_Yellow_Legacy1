@@ -772,7 +772,7 @@ MachokeEvosMoves:
 	db 0
 ; Learnset
 	db 5, MEDITATE
-	db 7, ROCKTHROW
+	db 7, ROCK_THROW
 	db 24, SUBMISSION
 	db 28, BODY_SLAM
 	db 33, ROLLING_KICK
@@ -1441,7 +1441,7 @@ OmanyteEvosMoves:
 	db 15, BUBBLEBEAM
 	db 18, AURORA_BEAM
 	db 22, MEGA_DRAIN
-	db 25, BDOY_SLAM
+	db 25, BODY_SLAM
 	db 27, SPIKE_CANNON
 	db 30, LEECH_SEED
 	db 37, ROCK_SLIDE
@@ -1454,7 +1454,7 @@ OmastarEvosMoves:
 ; Learnset
 	db 15, AURORA_BEAM
 	db 18, BUBBLEBEAM
-	db 22, BDOY_SLAM
+	db 22, BODY_SLAM
 	db 25, MEGA_DRAIN
 	db 27, SPIKE_CANNON
 	db 30, LEECH_SEED
