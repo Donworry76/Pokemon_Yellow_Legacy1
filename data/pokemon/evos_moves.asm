@@ -495,7 +495,7 @@ MewEvosMoves:
 	db 0
 ; Learnset
 	db 10, TRANSFORM
-	db 15, PSYBEAM
+	db 15, THUNDER_WAVE
 	db 20, BODY_SLAM
 	db 25, AMNESIA
 	db 30, RECOVER
