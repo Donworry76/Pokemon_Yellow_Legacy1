@@ -1547,7 +1547,7 @@ VaporeonEvosMoves:
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
-	db 20, WATER_GUN
+	db 20, CLAMP
 	db 23, QUICK_ATTACK
 	db 26, BUBBLEBEAM
 	db 30, SUPER_FANG
