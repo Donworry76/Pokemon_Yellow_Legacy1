@@ -9,11 +9,11 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK, 1
-	db 1, 3, ROCK_THROW
-	db 2, 1, CONSTRICT
-	db 2, 3, BIDE
-	db 2, 4, ROCK_THROW
-	db 3, 4, CONFUSE_RAY
+	db 1, 3, ROCK_SLIDE
+	db 2, 1, DIG
+	db 2, 2, AGILITY
+	db 2, 3, SUBSTITUTE
+	db 2, 4, ROCK_SLIDE
 
 	db BROCK, 2
 	db 2, 2, BIND
@@ -26,8 +26,8 @@ SpecialTrainerMoves:
 
 	db MISTY, 1
 	db 1, 2, LEECH_SEED
-	db 2, 3, AURORA_BEAM
-	db 3, 1, PSYBEAM
+	db 2, 3, ICE_BEAM
+	db 3, 1, PSYCHIC_M
 	db 3, 2, THUNDER_WAVE
 	db 0
 
