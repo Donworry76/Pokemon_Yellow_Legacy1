@@ -743,11 +743,11 @@ GravelerEvosMoves:
 	db 0
 ; Learnset
 	db 6, DEFENSE_CURL
-	db 12, ROCK_THROW
+	db 12, BONE_CLUB
 	db 21, DIG
 	db 26, SAND_ATTACK
-	db 31, BODY_SLAM
-	db 40, ROCK_SLIDE
+	db 31, ROCK_SLIDE
+	db 40, BODY_SLAM
 	db 45, EARTHQUAKE
 	db 48, EXPLOSION
 	db 0
@@ -884,7 +884,7 @@ GolemEvosMoves:
 	db 0
 ; Learnset
 	db 6, DEFENSE_CURL
-	db 12, ROCK_THROW
+	db 12, BONE_CLUB
 	db 21, DIG
 	db 26, SAND_ATTACK
 	db 31, ROCK_SLIDE
@@ -1005,7 +1005,7 @@ DiglettEvosMoves:
 	db 19, DIG
 	db 24, SLASH
 	db 31, TRI_ATTACK
-	db 35, SCREECH
+	db 35, SWORDS_DANCE
 	db 40, EARTHQUAKE
 	db 55, FISSURE
 	db 0
@@ -1017,9 +1017,9 @@ TaurosEvosMoves:
 	db 13, STOMP
 	db 15, AGILITY
 	db 19, DOUBLE_KICK
-	db 23, SCREECH
+	db 23, DRAGON_RAGE
 	db 27, BODY_SLAM
-	db 35, RAGE
+	db 35, SWORDS_DANCE
 	db 40, DOUBLE_EDGE
 	db 45, ROCK_SLIDE
 	db 50, EARTHQUAKE
@@ -1135,9 +1135,9 @@ JynxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, CONFUSION
-	db 23, DOUBLESLAP
-	db 31, ICE_PUNCH
+	db 18, ICE_PUNCH
+	db 23, PSYBEAM
+	db 31, RECOVER
 	db 35, LOVELY_KISS
 	db 39, PSYCHIC_M
 	db 43, ICE_BEAM
@@ -2305,7 +2305,7 @@ GeodudeEvosMoves:
 	db 0
 	; Learnset
 	db 6, DEFENSE_CURL
-	db 12, ROCK_THROW
+	db 12, BONE_CLUB
 	db 21, DIG
 	db 26, HARDEN
 	db 31, SELFDESTRUCT
