@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/hitmonchan.pic", 0, 1 ; sprite dimensions
 	dw HitmonchanPicFront, HitmonchanPicBack
 
-	db COMET_PUNCH, AGILITY, MEDITATE, NO_MOVE ; level 1 learnset
+	db COMET_PUNCH, AGILITY, MEDITATE, KARATE_CHOP ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
