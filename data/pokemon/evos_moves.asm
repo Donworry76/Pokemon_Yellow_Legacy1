@@ -427,9 +427,9 @@ NidoqueenEvosMoves:
 	db 2, THUNDERBOLT
 	db 6, ICE_BEAM
 	db 22, BODY_SLAM
-	db 27, SUPER_FANG
-	db 32, SLUDGE
-	db 36, CRABHAMMER
+	db 27, SLUDGE
+	db 32, CRABHAMMER
+	db 36, THUNDERBOLT
 	db 42, EARTHQUAKE
 	db 0
 
