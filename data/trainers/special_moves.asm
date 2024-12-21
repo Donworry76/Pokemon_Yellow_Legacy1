@@ -26,7 +26,7 @@ SpecialTrainerMoves:
 
 	db MISTY, 1
 	db 1, 2, LEECH_SEED
-	db 2, 3, ICE_BEAM
+	db 2, 1, BLIZZARD
 	db 3, 1, PSYCHIC_M
 	db 3, 2, THUNDER_WAVE
 	db 0
@@ -146,9 +146,8 @@ SpecialTrainerMoves:
 	db 3, 2, ICE_BEAM
 	db 3, 3, SOFTBOILED
 	db 3, 4, SEISMIC_TOSS
-	db 4, 1, SPORE 
-	db 4, 2, SWORDS_DANCE
-	db 4, 3, LEECH_LIFE
+	db 4, 3, NIGHT_SHADE
+	db 4, 4, SWORDS_DANCE
 	db 5, 1, FIRE_BLAST
 	db 5, 2, PSYCHIC_M
 	db 5, 3, CONFUSE_RAY
@@ -166,9 +165,8 @@ SpecialTrainerMoves:
 	db 4, 2, THUNDERBOLT
 	db 4, 3, ICE_BEAM
 	db 4, 4, THUNDER_WAVE
-	db 5, 1, SPORE
-	db 5, 2, SWORDS_DANCE
-	db 5, 3, LEECH_LIFE
+	db 5, 3, NIGHT_SHADE
+	db 5, 4, SWORDS_DANCE
 	db 6, 1, THUNDERPUNCH
 	db 6, 2, PSYCHIC_M
 	db 6, 3, CONFUSE_RAY
