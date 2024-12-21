@@ -140,7 +140,7 @@ Moves:
 	move WATERFALL,    FLINCH_SIDE_EFFECT1,         80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         85, 10
 	move SWIFT,        SWIFT_EFFECT,                70, NORMAL,       100, 20
-	move SKULL_BASH,   HYPER_BEAM_EFFECT,          100, GHOST,        100, 15
+	move SKULL_BASH,   HYPER_BEAM_EFFECT,          120, GHOST,        100, 10
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  25, WATER,        100, 15
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      40, NORMAL,       100, 35
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, BIRD,         100, 20
