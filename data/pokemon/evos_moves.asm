@@ -325,10 +325,10 @@ IvysaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 9, SLEEP_POWDER
+	db 9, TOXIC
 	db 16, MEGA_DRAIN
-	db 18, TOXIC
 	db 16, ACID
+	db 20, GROWTH
 	db 22, RAZOR_LEAF
 	db 25, BODY_SLAM
 	db 29, SLEEP_POWDER
@@ -602,9 +602,9 @@ BlastoiseEvosMoves:
 	db 10, WATER_GUN
 	db 15, HEADBUTT
 	db 21, SURF
-	db 27, ICE_BEAM
-	db 31, EARTHQUAKE
-	db 36, BODY_SLAM
+	db 27, BODY_SLAM
+	db 36, CRABHAMMER
+	db 38, SKULL_BASH
 	db 42, RECOVER
 	db 45, ICE_BEAM
 	db 52, HYDRO_PUMP
@@ -2111,7 +2111,7 @@ BulbasaurEvosMoves:
 ; Learnset
 	db 7, ABSORB
 	db 9, LEECH_SEED
-	db 12, HEADBUTT
+	db 12, ACID
 	db 15, TOXIC
 	db 29, RAZOR_LEAF
 	db 38, GROWTH
@@ -2131,7 +2131,7 @@ VenusaurEvosMoves:
 	db 38, SWORDS_DANCE
 	db 42, PETAL_DANCE
 	db 46, EARTHQUAKE
-	db 50, SLEEP_POWDER
+	db 50, SPORE
 	db 55, SOLARBEAM
 	db 0
 
@@ -2379,10 +2379,10 @@ CharmanderEvosMoves:
 	db EVOLVE_LEVEL, 16, CHARMELEON
 	db 0
 ; Learnset
-	db 7, BITE
-	db 11, SMOKESCREEN
-	db 17, SLASH
-	db 19, FIRE_PUNCH
+	db 7, SMOKESCREEN
+	db 11, BONE_CLUB
+	db 14, FIRE_PUNCH
+	db 19, SLASH
 	db 23, BITE
 	db 33, SLASH
 	db 38, FLAMETHROWER
@@ -2412,13 +2412,13 @@ CharmeleonEvosMoves:
 	db EVOLVE_LEVEL, 36, CHARIZARD
 	db 0
 ; Learnset
-	db 9, SLASH
+	db 9, BONE_CLUB
 	db 13, SMOKESCREEN
-	db 17, FIRE_PUNCH
-	db 19, RAGE
-	db 24, DRAGON_RAGE
-	db 33, BODY_SLAM
-	db 40, FLAMETHROWER
+	db 15, FIRE_PUNCH
+	db 19, THUNDERPUNCH
+	db 22, DRAGON_RAGE
+	db 30, FLAMETHROWER
+	db 34, BODY_SLAM
 	db 48, SLAM
 	db 56, FIRE_SPIN
 	db 0
@@ -2448,8 +2448,8 @@ CharizardEvosMoves:
 	db 13, SMOKESCREEN
 	db 19, EARTHQUAKE
 	db 23, SWORDS_DANCE
+	db 36, FLAMETHROWER
 	db 36, WING_ATTACK
-	db 38, FLAMETHROWER
 	db 42, ROCK_SLIDE
 	db 48, SLAM
 	db 56, EARTHQUAKE
