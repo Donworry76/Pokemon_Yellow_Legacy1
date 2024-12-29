@@ -1,6 +1,6 @@
 	db DEX_BEEDRILL ; pokedex id
 
-	db  65, 110,  60, 115,  55
+	db  65, 110,  40, 125,  55
 	;   hp  atk  def  spd  spc
 
 	db BUG, POISON ; type
