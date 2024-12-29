@@ -1,6 +1,6 @@
 	db DEX_BUTTERFREE ; pokedex id
 
-	db  80,  70,  80,  80, 90
+	db  70,  70,  70,  60, 100
 	;   hp  atk  def  spd  spc
 
 	db GRASS, PSYCHIC_TYPE ; type
