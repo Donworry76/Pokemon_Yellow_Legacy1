@@ -1,9 +1,9 @@
 	db DEX_GOLEM ; pokedex id
 
-	db  80, 120, 130,  45,  65
+	db  80, 120, 140,  45,  65
 	;   hp  atk  def  spd  spc
 
-	db ROCK, GROUND ; type
+	db ROCK, DRAGON ; type
 	db 45 ; catch rate
 	db 177 ; base exp
 
