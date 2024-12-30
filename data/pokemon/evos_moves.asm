@@ -827,7 +827,7 @@ ArbokEvosMoves:
 ; Learnset
 	db 9,  SLUDGE
 	db 15, EARTHQUAKE
-	db 22, MEGA_DRAIN
+	db 22, LEECH_LIFE
 	db 24, GLARE
 	db 25, SLUDGE
 	db 30, RECOVER
@@ -2143,9 +2143,9 @@ TentacruelEvosMoves:
 	db 13, CRABHAMMER
 	db 18, SLUDGE
 	db 23, ICE_BEAM
-	db 27, MEGA_DRAIN
+	db 30, SLUDGE
 	db 35, SWORDS_DANCE
-	db 40, SLUDGE
+	db 40, MEGA_DRAIN
 	db 43, RECOVER
 	db 47, CRABHAMMER
 	db 50, WRAP
@@ -2182,7 +2182,7 @@ SeakingEvosMoves:
 	db 15, DOUBLE_EDGE
 	db 17, AGILITY
 	db 24, WATERFALL
-	db 33, DRILL_PECK
+	db 33, CRABHAMMER
 	db 43, DOUBLE_EDGE
 	db 48, RECOVER
 	db 55, HYDRO_PUMP
@@ -2332,8 +2332,8 @@ AerodactylEvosMoves:
 	db 0
 ; Learnset
 	db 15, BITE	
-	db 22, DRAGON_RAGE
-	db 27, BODY_SLAM
+	db 22, BODY_SLAM
+	db 27, DRILL_PECK
 	db 32, ROCK_SLIDE
 	db 40, SKY_ATTACK
 	db 43, DOUBLE_EDGE
