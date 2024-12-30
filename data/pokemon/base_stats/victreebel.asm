@@ -1,6 +1,6 @@
 	db DEX_VICTREEBEL ; pokedex id
 
-	db  80, 115,  65,  70, 100
+	db  80, 120,  65,  35, 120
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
