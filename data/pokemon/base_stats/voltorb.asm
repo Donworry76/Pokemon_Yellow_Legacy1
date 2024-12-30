@@ -1,6 +1,6 @@
 	db DEX_VOLTORB ; pokedex id
 
-	db  40,  30,  50, 100,  55
+	db  40,  40,  50, 140,  65
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, ELECTRIC ; type
