@@ -1,6 +1,6 @@
 	db DEX_VAPOREON ; pokedex id
 
-	db 130,  65,  60,  65, 120
+	db 130,  65,  80,  65, 120
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
