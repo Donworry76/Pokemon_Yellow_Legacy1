@@ -1,6 +1,6 @@
 	db DEX_ARBOK ; pokedex id
 
-	db  72, 105,  69, 100,  75
+	db  72, 105,  79, 90,  85
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type
