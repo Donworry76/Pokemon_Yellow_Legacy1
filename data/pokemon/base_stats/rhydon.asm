@@ -1,6 +1,6 @@
 	db DEX_RHYDON ; pokedex id
 
-	db 125, 140, 140,  40,  45
+	db 115, 140, 140,  40,  55
 	;   hp  atk  def  spd  spc
 
 	db GROUND, ROCK ; type
