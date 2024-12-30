@@ -1,6 +1,6 @@
 	db DEX_OMANYTE ; pokedex id
 
-	db  35,  40, 100,  35,  90
+	db  50,  50, 110,  35,  90
 	;   hp  atk  def  spd  spc
 
 	db WATER, GRASS ; type
