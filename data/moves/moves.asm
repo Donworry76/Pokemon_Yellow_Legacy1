@@ -162,7 +162,7 @@ Moves:
 	move PSYWAVE,      SPECIAL_DAMAGE_EFFECT,        1, PSYCHIC_TYPE,  95, 15
 	move SPLASH,       SPLASH_EFFECT,                0, BIRD,         100, 40
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, BIRD,         100, 40
-	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,       110, WATER,        100, 10
+	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,       110, WATER,         95, 5
 	move EXPLOSION,    EXPLODE_EFFECT,             250, NORMAL,       100,  5
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 15
 	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 20
