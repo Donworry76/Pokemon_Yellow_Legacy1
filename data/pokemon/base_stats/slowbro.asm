@@ -1,6 +1,6 @@
 	db DEX_SLOWBRO ; pokedex id
 
-	db  95,  75, 120,  30, 100
+	db  105,  75, 110,  30, 100
 	;   hp  atk  def  spd  spc
 
 	db WATER, PSYCHIC_TYPE ; type
