@@ -1,6 +1,6 @@
 	db DEX_GYARADOS ; pokedex id
 
-	db  105, 125,  79,  91, 100
+	db  105, 125,  79,  81, 100
 	;   hp  atk  def  spd  spc
 
 	db WATER, FLYING ; type
