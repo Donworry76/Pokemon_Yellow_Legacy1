@@ -6,7 +6,7 @@
 ; - db 0 ; no more evolutions
 ; - Learnset (in increasing level order):
 ;    * db level, move
-; - db 0 ; no more level-up moves
+; - db 0 ; no more level-up 
 
 EvosMovesPointerTable:
 	table_width 2, EvosMovesPointerTable
@@ -600,7 +600,7 @@ BlastoiseEvosMoves:
 ; Learnset
 	db 5, BUBBLE
 	db 10, WATER_GUN
-	db 15, HEADBUTT
+	db 15, ICE_BEAM
 	db 21, SURF
 	db 27, BODY_SLAM
 	db 36, CRABHAMMER
@@ -1049,12 +1049,12 @@ FarfetchdEvosMoves:
 ; Learnset
 	db 7, FURY_ATTACK
 	db 9, SHARPEN
-	db 13, RAZOR_LEAF
-	db 18, WING_ATTACK
+	db 13, WING_ATTACK
+	db 18, RAZOR_LEAF
 	db 23, SUBMISSION
 	db 28, SWORDS_DANCE
 	db 31, DRILL_PECK
-	db 39, AGILITY
+	db 39, EARTHQUAKE
 	db 0
 
 VenonatEvosMoves:
@@ -1076,12 +1076,12 @@ DragoniteEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, ICE_BEAM
-	db 50, THUNDER_WAVE
-	db 55, DRILL_PECK
-	db 58, WRAP
-	db 60, HYPER_BEAM
-	db 62, RECOVER
+	db 55, SLAM
+	db 55, THUNDER_WAVE
+	db 55, SKY_ATTACK
+	db 58, EARTHQUAKE
+	db 60, WRAP
+	db 65, RECOVER
 	db 0
 
 MissingNo43EvosMoves:
@@ -2126,13 +2126,13 @@ VenusaurEvosMoves:
 	db 7, LEECH_SEED
 	db 22, PETAL_DANCE
 	db 25, SLEEP_POWDER
-	db 29, EARTHQUAKE
+	db 32, SOLARBEAM
 	db 36, SLUDGE
 	db 38, SWORDS_DANCE
 	db 42, PETAL_DANCE
 	db 46, EARTHQUAKE
-	db 50, SPORE
-	db 55, SOLARBEAM
+	db 50, SLEEP_POWDER
+	db 55, RECOVER
 	db 0
 
 TentacruelEvosMoves:
