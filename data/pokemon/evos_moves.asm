@@ -700,8 +700,8 @@ PidgeyEvosMoves:
 ; Learnset
 	db 5, SAND_ATTACK
 	db 12, MIRROR_MOVE
+	db 15, SWFIT
 	db 19, WING_ATTACK
-	db 21, WHIRLWIND
 	db 29, TAKE_DOWN
 	db 34, AGILITY
 	db 49, MIRROR_MOVE
@@ -844,7 +844,7 @@ ParasectEvosMoves:
 	db 24, NIGHT_SHADE
 	db 26, SWORDS_DANCE
 	db 28, SPORE
-	db 32, MEGA_DRAIN
+	db 32, LEECH_LIFE
 	db 36, SKULL_BASH
 	db 45, BODY_SLAM
 	db 0
@@ -869,9 +869,9 @@ DrowzeeEvosMoves:
 	db EVOLVE_LEVEL, 26, HYPNO
 	db 0
 ; Learnset
-	db 12, CONFUSE_RAY
-	db 17, PSYBEAM
-	db 24, KINESIS
+	db 12, PSYBEAM
+	db 17, MEGA_DRAIN
+	db 24, CONFUSE_RAY
 	db 29, TOXIC
 	db 32, PSYCHIC_M
 	db 37, MEDITATE
@@ -886,9 +886,9 @@ GolemEvosMoves:
 	db 6, ROCK_SLIDE
 	db 12, EARTHQUAKE
 	db 21, EXPLOSION
-	db 26, SAND_ATTACK
+	db 26, BODY_SLAM
 	db 31, ROCK_SLIDE
-	db 40, BODY_SLAM
+	db 40, SLAM
 	db 45, EARTHQUAKE
 	db 48, EXPLOSION
 	db 0
@@ -1794,7 +1794,7 @@ ButterfreeEvosMoves:
 	db 15, SLEEP_POWDER
 	db 18, MEGA_DRAIN
 	db 24, RECOVER
-	db 27, CONFUSE_RAY
+	db 27, AMNESIA
 	db 31, SOLARBEAM
 	db 37, PSYCHIC_M
 	db 0
@@ -1842,9 +1842,9 @@ HypnoEvosMoves:
 	db 28, NIGHT_SHADE
 	db 30, THUNDER_WAVE
 	db 32, PSYCHIC_M
-	db 37, AMNESIA
-	db 40, HYPNOSIS
-	db 45, DREAM_EATER
+	db 37, HYPNOSIS
+	db 40, DREAM_EATER
+	db 45, AMNESIA
 	db 0
 
 GolbatEvosMoves:
@@ -2086,8 +2086,8 @@ PidgeotEvosMoves:
 	db 12, QUICK_ATTACK
 	db 18, RECOVER
 	db 21, SKY_ATTACK
-	db 29, DOUBLE_EDGE
 	db 34, SAND_ATTACK
+	db 36, DOUBLE_EDGE
 	db 40, SKY_ATTACK
 	db 49, RECOVER
 	db 0
