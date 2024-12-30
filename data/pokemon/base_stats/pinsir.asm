@@ -1,6 +1,6 @@
 	db DEX_PINSIR ; pokedex id
 
-	db  95, 125, 100,  85,  65
+	db  64, 125, 120,  75,  65
 	;   hp  atk  def  spd  spc
 
 	db BUG, GROUND ; type
