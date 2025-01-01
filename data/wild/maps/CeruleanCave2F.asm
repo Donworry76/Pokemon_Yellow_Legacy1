@@ -8,7 +8,7 @@ CeruleanCave2FWildMons:
 	db 60, DITTO
 	db 64, MAGNETON
 	db 63, CHANSEY
-	db 64, RAICHU
+	db 64, ARTICUNO
 	db 65, MEW
 	end_grass_wildmons
 
