@@ -557,7 +557,7 @@ GastlyEvosMoves:
 ; Learnset
 	db 10, PSYBEAM
 	db 15, SELFDESTRUCT
-	db 20, TOXIC
+	db 20, SMOG
 	db 36, NIGHT_SHADE
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
@@ -630,11 +630,11 @@ TangelaEvosMoves:
 	db 0
 ; Learnset
 	db 15, ABSORB
-	db 19, GROWTH
-	db 21, LEECH_SEED
+	db 19, LEECH_SEED
+	db 21, MEGA_DRAIN
 	db 23, STUN_SPORE
 	db 25, SLEEP_POWDER
-	db 32, MEGA_DRAIN
+	db 32, EGG_BOMB
 	db 42, BODY_SLAM
 	db 45, SWORDS_DANCE
 	db 48, BIND
@@ -657,9 +657,9 @@ GrowlitheEvosMoves:
 	db EVOLVE_ITEM, FIRE_STONE, 1, ARCANINE
 	db 0
 ; Learnset
-	db 18, DOUBLE_KICK
-	db 23, DRAGON_RAGE
-	db 28, BODY_SLAM
+	db 18, BODY_SLAM
+	db 21, DRAGON_RAGE
+	db 25, FIRE_SPIN
 	db 35, FLAMETHROWER
 	db 40, RECOVER
 	db 0
@@ -670,11 +670,11 @@ OnixEvosMoves:
 ; Learnset
 	db 12, ROCK_THROW
 	db 19, DIG
-	db 25, RAGE
-	db 29, BIND
-	db 31, ROCK_SLIDE
-	db 37, SLAM
-	db 43, EARTHQUAKE
+	db 25, BIND
+	db 29, ROCK_SLIDE
+	db 31, SLAM
+	db 37, EARTHQUAKE
+	db 43, SPIKE_CANNON
 	db 48, EXPLOSION
 	db 0
 
@@ -745,11 +745,11 @@ GravelerEvosMoves:
 	db 6, DEFENSE_CURL
 	db 12, BONE_CLUB
 	db 21, DIG
-	db 26, SAND_ATTACK
-	db 31, ROCK_SLIDE
+	db 26, ROCK_SLIDE
+	db 31, SAND_ATTACK
 	db 40, BODY_SLAM
 	db 45, EARTHQUAKE
-	db 48, EXPLOSION
+	db 48, SPIKE_CANNON
 	db 0
 
 ChanseyEvosMoves:
@@ -815,9 +815,9 @@ HitmonchanEvosMoves:
 	db 33, FIRE_PUNCH
 	db 35, ICE_PUNCH
 	db 37, THUNDERPUNCH
-	db 40, ROCK_SLIDE
+	db 40, MEGA_PUNCH
 	db 42, SUBMISSION
-	db 48, BODY_SLAM
+	db 48, ROCK_SLIDE
 	db 53, EARTHQUAKE
 	db 0
 
@@ -885,11 +885,11 @@ GolemEvosMoves:
 ; Learnset
 	db 6, ROCK_SLIDE
 	db 12, EARTHQUAKE
-	db 21, EXPLOSION
-	db 26, BODY_SLAM
-	db 31, ROCK_SLIDE
-	db 40, SLAM
-	db 45, EARTHQUAKE
+	db 21, BODY_SLAM
+	db 26, ROCK_SLIDE
+	db 38, SLAM
+	db 40, EARTHQUAKE
+	db 45, SPIKE_CANNON
 	db 48, EXPLOSION
 	db 0
 
@@ -926,9 +926,9 @@ ElectabuzzEvosMoves:
 	db 20, KARATE_CHOP
 	db 25, BODY_SLAM
 	db 31, THUNDERBOLT
-	db 40, TRI_ATTACK
+	db 40, MEGA_PUNCH
 	db 43, PSYCHIC_M
-	db 54, THUNDER
+	db 54, TRI_ATTACK
 	db 0
 
 MagnetonEvosMoves:
@@ -1051,7 +1051,7 @@ FarfetchdEvosMoves:
 	db 9, SHARPEN
 	db 13, WING_ATTACK
 	db 18, RAZOR_LEAF
-	db 23, SUBMISSION
+	db 23, MEGA_PUNCH
 	db 28, SWORDS_DANCE
 	db 31, DRILL_PECK
 	db 39, EARTHQUAKE
@@ -1136,7 +1136,7 @@ JynxEvosMoves:
 	db 0
 ; Learnset
 	db 18, ICE_PUNCH
-	db 23, PSYBEAM
+	db 23, SUBSTITUTE
 	db 31, RECOVER
 	db 35, LOVELY_KISS
 	db 39, PSYCHIC_M
@@ -1338,7 +1338,7 @@ KabutoEvosMoves:
 	db 11, ROCK_THROW
 	db 15, CONFUSE_RAY
 	db 19, PIN_MISSILE
-	db 25, WATERFALL
+	db 25, ROCK_SLIDE
 	db 30, LEECH_LIFE
 	db 35, SWORDS_DANCE
 	db 43, VICEGRIP
@@ -1353,12 +1353,12 @@ KabutopsEvosMoves:
 	db 11, CONFUSE_RAY
 	db 15, ROCK_THROW
 	db 19, LEECH_LIFE
-	db 25, CRABHAMMER
-	db 30, ROCK_SLIDE
+	db 25, ROCK_SLIDE
+	db 30, LEECH_LIFE
 	db 35, SWORDS_DANCE
 	db 43, VICEGRIP
-	db 46, CRABHAMMER
-	db 53, ROCK_SLIDE
+	db 46, SPIKE_CANNON
+	db 50, EARTHQUAKE
 	db 0
 
 HorseaEvosMoves:
@@ -1386,8 +1386,8 @@ SeadraEvosMoves:
 	db 18, TOXIC
 	db 22, SLAM
 	db 26, ICE_BEAM
-	db 30, SURF
-	db 33, RECOVER
+	db 33, WATERFALL
+	db 35, RECOVER
 	db 37, SLAM
 	db 43, ICE_BEAM
 	db 50, HYDRO_PUMP
@@ -1444,7 +1444,7 @@ OmanyteEvosMoves:
 	db 25, BODY_SLAM
 	db 27, SPIKE_CANNON
 	db 30, LEECH_SEED
-	db 37, ROCK_SLIDE
+	db 37, PETAL_DANCE
 	db 52, HYDRO_PUMP
 	db 0
 
@@ -1457,10 +1457,10 @@ OmastarEvosMoves:
 	db 22, BODY_SLAM
 	db 25, MEGA_DRAIN
 	db 27, SURF
-	db 30, PETAL_DANCE
-	db 37, ROCK_SLIDE
-	db 42, PETAL_DANCE
-	db 52, HYDRO_PUMP
+	db 30, LEECH_SEED
+	db 37, PETAL_DANCE
+	db 42, WATERFALL
+	db 52, ICE_BEAM
 	db 0
 
 JigglypuffEvosMoves:
@@ -1643,9 +1643,9 @@ PoliwrathEvosMoves:
 	db 10, DOUBLESLAP
 	db 13, WATER_GUN
 	db 22, BUBBLEBEAM
-	db 25, KARATE_CHOP
+	db 25, BODY_SLAM
 	db 30, ICE_PUNCH
-	db 35, BODY_SLAM
+	db 35, MEGA_PUNCH
 	db 43, CRABHAMMER
 	db 48, EARTHQUAKE
 	db 53, AMNESIA
@@ -1707,7 +1707,7 @@ PrimeapeEvosMoves:
 	db 15, HI_JUMP_KICK
 	db 27, BODY_SLAM
 	db 31, SWORDS_DANCE
-	db 36, HI_JUMP_KICK
+	db 36, MEGA_PUNCH
 	db 42, ROCK_SLIDE
 	db 48, EARTHQUAKE
 	db 53, SLAM
@@ -1807,7 +1807,7 @@ MachampEvosMoves:
 	db 19, ROCK_SLIDE
 	db 28, SUBMISSION
 	db 40, ROCK_SLIDE
-	db 45, HI_JUMP_KICK
+	db 45, MEGA_PUNCH
 	db 50, BODY_SLAM
 	db 55, EARTHQUAKE
 	db 0
@@ -1877,9 +1877,9 @@ SnorlaxEvosMoves:
 	db 0
 ; Learnset
 	db 29, LOVELY_KISS
-	db 33, EXPLOSION
+	db 33, BODY_SLAM
 	db 36, REST
-	db 43, BODY_SLAM
+	db 43, MEGA_PUNCH
 	db 48, DOUBLE_EDGE
 	db 56, EARTHQUAKE
 	db 0
@@ -1914,7 +1914,7 @@ MukEvosMoves:
 	db 27, MEGA_DRAIN
 	db 33, SLUDGE
 	db 37, BODY_SLAM
-	db 42, MEGA_DRAIN
+	db 42, MEGA_PUNCH
 	db 45, EXPLOSION
 	db 52, NIGHT_SHADE
 	db 0
