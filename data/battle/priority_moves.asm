@@ -4,5 +4,7 @@
 PriorityMovesList:
     db COUNTER,        1
     db QUICK_ATTACK,   8
+    db RAZOR_WIND,     10
+    db BUBBLE,         8
     db TRANSFORM,      8
     db -1 ; end
