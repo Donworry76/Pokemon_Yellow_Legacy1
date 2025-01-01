@@ -8,7 +8,7 @@ CeruleanCaveB1FWildMons:
 	db 60, SLOWBRO
 	db 64, KADABRA
 	db 63, ALAKAZAM
-	db 64, ALAKAZAM
+	db 64, MOLTRES
 	db 65, MEW
 	end_grass_wildmons
 
