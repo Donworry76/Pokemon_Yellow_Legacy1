@@ -8,7 +8,7 @@ CeruleanCave1FWildMons:
 	db 60, DITTO
 	db 64, VILEPLUME
 	db 63, VICTREEBEL
-	db 64, RAICHU
+	db 64, ZAPDOS
 	db 65, MEW
 	end_grass_wildmons
 
