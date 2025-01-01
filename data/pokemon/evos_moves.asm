@@ -484,8 +484,8 @@ ArcanineEvosMoves:
 	db 0
 ; Learnset
 	db 23, SLAM
-	db 30, BODY_SLAM
-	db 35, FLAMETHROWER
+	db 35, RAZOR_WIND
+	db 38, FLAMETHROWER
 	db 40, HI_JUMP_KICK
 	db 50, RECOVER
 	db 0
@@ -1080,7 +1080,7 @@ DragoniteEvosMoves:
 	db 55, THUNDER_WAVE
 	db 55, SKY_ATTACK
 	db 58, EARTHQUAKE
-	db 60, WRAP
+	db 60, RAZOR_WIND
 	db 65, RECOVER
 	db 0
 
