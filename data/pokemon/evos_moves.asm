@@ -700,7 +700,7 @@ PidgeyEvosMoves:
 ; Learnset
 	db 5, SAND_ATTACK
 	db 12, MIRROR_MOVE
-	db 15, SWFIT
+	db 15, SWIFT
 	db 19, WING_ATTACK
 	db 29, TAKE_DOWN
 	db 34, AGILITY
