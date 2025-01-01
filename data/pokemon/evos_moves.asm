@@ -2429,8 +2429,8 @@ WartortleEvosMoves:
 	db 0
 ; Learnset
 	db 5, ICE_BEAM
-	db 10, SURF
-	db 15, HEADBUTT
+	db 10, HEADBUTT
+	db 15, BUBBLE
 	db 18, BUBBLEBEAM
 	db 25, BODY_SLAM
 	db 29, ICE_PUNCH
