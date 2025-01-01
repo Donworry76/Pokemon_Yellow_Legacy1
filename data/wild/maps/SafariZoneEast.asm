@@ -1,15 +1,15 @@
 SafariZoneEastWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 32, TAUROS
-	db 33, GOLDUCK
-	db 35, EXEGGCUTE
-	db 34, TAUROS
-	db 36, KANGASKHAN
-	db 36, NIDOQUEEN
-	db 36, SCYTHER
-	db 37, PINSIR
-	db 35, CHANSEY
-	db 40, GOLEM
+	db 42, TAUROS
+	db 43, PORYGON
+	db 42, EXEGGCUTE
+	db 42, TAUROS
+	db 42, KANGASKHAN
+	db 43, NIDOQUEEN
+	db 44, SCYTHER
+	db 43, PINSIR
+	db 42, CHANSEY
+	db 42, GOLEM
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
