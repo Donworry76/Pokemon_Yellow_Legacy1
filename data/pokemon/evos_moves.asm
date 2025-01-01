@@ -209,12 +209,12 @@ RhydonEvosMoves:
 	db 10, ROCK_SLIDE
 	db 10, ROCK_SLIDE
 	db 13, ROCK_SLIDE
-	db 19, EARTHQUAKE
-	db 24, EARTHQUAKE
-	db 39, ROCK_SLIDE
-	db 44, EARTHQUAKE
-	db 49, BODY_SLAM
-	db 55, HORN_DRILL
+	db 19, BODY_SLAM
+	db 24, ROCK_SLIDE
+	db 42, EARTHQUAKE
+	db 42, MEGA_PUNCH
+	db 45, SPIKE_CANNON
+	db 55, SUBSTITUTE
 	db 0
 
 KangaskhanEvosMoves:
@@ -222,7 +222,7 @@ KangaskhanEvosMoves:
 	db 0
 ; Learnset
 	db 7, DIZZY_PUNCH
-	db 15, LOW_KICK
+	db 15, MEGA_PUNCH
 	db 21, DRAGON_RAGE
 	db 24, SWORDS_DANCE
 	db 29, SLAM
@@ -235,7 +235,7 @@ NidoranMEvosMoves:
 	db EVOLVE_LEVEL, 16, NIDORINO
 	db 0
 ; Learnset
-	db 6, SUPERSONIC
+	db 6, DEFENSE_CURL
 	db 8, HORN_ATTACK
 	db 12, DOUBLE_KICK
 	db 23, FOCUS_ENERGY
@@ -344,9 +344,9 @@ ExeggutorEvosMoves:
 	db 19, SLEEP_POWDER
 	db 20, MEGA_DRAIN
 	db 25, EXPLOSION
-	db 31, STOMP
-	db 35, STUN_SPORE
-	db 43, EGG_BOMB
+	db 31, SOFTBOILED
+	db 35, EGG_BOMB
+	db 43, DOUBLE_EDGE
 	db 50, PSYCHIC_M
 	db 53, SLEEP_POWDER
 	db 0
@@ -359,7 +359,7 @@ LickitungEvosMoves:
 	db 15, CONFUSE_RAY
 	db 19, WRAP
 	db 23, BODY_SLAM
-	db 32, RECOVER
+	db 32, SOFTBOILED
 	db 39, SWORDS_DANCE
 	db 44, EARTHQUAKE
 	db 0
@@ -412,7 +412,7 @@ NidoranFEvosMoves:
 	db EVOLVE_LEVEL, 16, NIDORINA
 	db 0
 ; Learnset
- 	db 6, SUPERSONIC
+ 	db 6, DEFENSE_CURL
 	db 8, BITE
 	db 12, DOUBLE_KICK
 	db 23, SUPER_FANG
@@ -428,9 +428,9 @@ NidoqueenEvosMoves:
 	db 6, ICE_BEAM
 	db 22, BODY_SLAM
 	db 27, SLUDGE
-	db 32, CRABHAMMER
-	db 36, THUNDERBOLT
-	db 42, EARTHQUAKE
+	db 32, LOVELY_KISS
+	db 36, EARTHQUAKE
+	db 42, SOFTBOILED
 	db 0
 
 CuboneEvosMoves:
@@ -438,8 +438,8 @@ CuboneEvosMoves:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
-	db 10, BONE_CLUB
+	db 5,  BONE_CLUB
+	db 10, COUNTER
 	db 13, ROCK_THROW
 	db 19, BODY_SLAM
 	db 27, NIGHT_SHADE
@@ -455,13 +455,13 @@ RhyhornEvosMoves:
 ; Learnset
 	db 10, SAND_ATTACK
 	db 10, BONE_CLUB
-	db 13, ROCK_THROW
-	db 19, STOMP
+	db 13, SHARPEN
+	db 19, BODY_SLAM
 	db 24, DIG
-	db 39, ROCK_SLIDE
-	db 44, EARTHQUAKE
+	db 30, ROCK_SLIDE
+	db 35, EARTHQUAKE
 	db 49, TAKE_DOWN
-	db 55, HORN_DRILL
+	db 55, SPIKE_CANNON
 	db 0
 
 LaprasEvosMoves:
