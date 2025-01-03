@@ -114,7 +114,7 @@ EvosMovesPointerTable:
 	dw EeveeEvosMoves
 	dw FlareonEvosMoves
 	dw JolteonEvosMoves
-	dw reonEvosMoves
+	dw VaporeonEvosMoves
 	dw MachopEvosMoves
 	dw ZubatEvosMoves
 	dw EkansEvosMoves
@@ -1496,7 +1496,7 @@ EeveeEvosMoves:
 ; Evolutions
 	db EVOLVE_ITEM, FIRE_STONE, 1, FLAREON
 	db EVOLVE_ITEM, THUNDER_STONE, 1, JOLTEON
-	db EVOLVE_ITEM, WATER_STONE, 1, REON
+	db EVOLVE_ITEM, WATER_STONE, 1, VAPOREON
 	db 0
 ; Learnset
 	db 6, SHARPEN
