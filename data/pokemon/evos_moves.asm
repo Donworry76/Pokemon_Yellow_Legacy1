@@ -690,7 +690,7 @@ FearowEvosMoves:
 	db 24, DRILL_PECK
 	db 28, TRI_ATTACK
 	db 30, RECOVER
-	db 40, DOUBLE_EDGE
+	db 40, RAZOR_WIND
 	db 0
 
 PidgeyEvosMoves:
@@ -743,7 +743,7 @@ GravelerEvosMoves:
 	db 0
 ; Learnset
 	db 6, DEFENSE_CURL
-	db 12, BONE_CLUB
+	db 12, FISSURE
 	db 21, DIG
 	db 26, ROCK_SLIDE
 	db 31, SAND_ATTACK
@@ -2306,8 +2306,8 @@ GeodudeEvosMoves:
 	; Learnset
 	db 6, DEFENSE_CURL
 	db 12, BONE_CLUB
-	db 21, DIG
-	db 26, HARDEN
+	db 21, FISSURE
+	db 26, DIG
 	db 31, SELFDESTRUCT
 	db 40, ROCK_SLIDE
 	db 45, EARTHQUAKE
