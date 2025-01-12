@@ -47,7 +47,7 @@ Moves:
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,       100, 15
 	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
 	move TAKE_DOWN,    RECOIL_EFFECT,               95, NORMAL,       100, 20
-	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  110, NORMAL,       100, 20
+	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  120, DRAGON,       100, 10
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              120, NORMAL,       100, 10
 	move TAIL_WHIP,    DEFENSE_DOWN2_EFFECT,         0, BIRD,         100, 20
 	move POISON_STING, POISON_SIDE_EFFECT1,         35, POISON,       100, 35
@@ -85,15 +85,15 @@ Moves:
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             80, GRASS,        100, 10
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,         90, 10
 	move GROWTH,       SPECIAL_UP1_EFFECT,           0, BIRD,         100, 40
-	move RAZOR_LEAF,   SWIFT_EFFECT,                55, GRASS,         95, 25
+	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,         95, 25
 	move SOLARBEAM,    CHARGE_EFFECT,              150, GRASS,        100, 5
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,        90, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         75, 30
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         75, 15
-	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,  110, GRASS,        100, 20
+	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,  120, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN2_EFFECT,           0, BUG,          100, 20
 	move DRAGON_RAGE,  SPECIAL_DAMAGE_EFFECT,        1, DRAGON,       100, 20
-	move FIRE_SPIN,    TRAPPING_EFFECT,             15, FIRE,          85, 15
+	move FIRE_SPIN,    TWO_TO_FIVE_ATTACKS_EFFECT,  20, FIRE,         100, 15
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC,     100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,     100, 20
@@ -111,7 +111,7 @@ Moves:
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 30
 	move RAGE,         RAGE_EFFECT,                 60, NORMAL,       100, 20
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC_TYPE, 100, 20
-	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        90, GHOST,        100, 15
+	move NIGHT_SHADE,  SWIFT_EFFECT,                70, GHOST,        100, 15
 	move MIMIC,        MIMIC_EFFECT,                 0, BIRD,         100, 10
 	move SCREECH,      DEFENSE_DOWN2_EFFECT,         0, BIRD,         100,  5
 	move DOUBLE_TEAM,  EVASION_UP2_EFFECT,           0, BIRD,         100, 15
@@ -133,14 +133,14 @@ Moves:
 	move SELFDESTRUCT, EXPLODE_EFFECT,             180, NORMAL,       100,  5
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, GRASS,        100, 10
 	move LICK,         PARALYZE_SIDE_EFFECT2,       55, GHOST,        100, 30
-	move SMOG,         POISON_SIDE_EFFECT2,         60, POISON,       100, 20
+	move SMOG,         POISON_SIDE_EFFECT2,        120, POISON,        80, 5
 	move SLUDGE,       POISON_SIDE_EFFECT2,         95, POISON,       100, 15
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,       100, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          130, FIRE,          90,  5
 	move WATERFALL,    FLINCH_SIDE_EFFECT1,         80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             15, WATER,         85, 10
 	move SWIFT,        SWIFT_EFFECT,                70, NORMAL,       100, 20
-	move SKULL_BASH,   HYPER_BEAM_EFFECT,          120, GHOST,        100, 10
+	move SKULL_BASH,   FLINCH_SIDE_EFFECT1,         120, GHOST,        95, 5
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  30, ROCK,         100, 10
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      40, BUG,          100, 35
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, BIRD,         100, 20
@@ -153,9 +153,9 @@ Moves:
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  20, GRASS,        100, 20
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             80, BUG,          100, 15
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, BIRD,          75, 10
-	move SKY_ATTACK,   CHARGE_EFFECT,               150, FLYING,      100,  5
+	move SKY_ATTACK,   RECOIL_EFFECT,               120, FLYING,      100, 10
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, BIRD,         100, 10
-	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      40, WATER,        100, 30
+	move BUBBLE,       NO_ADDITIONAL_EFFECT,        40, WATER,        100, 25
 	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,       70, NORMAL,       100, 20
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100,  5
 	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, BIRD,         100, 20
