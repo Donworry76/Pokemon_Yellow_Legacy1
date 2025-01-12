@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/voltorb.pic", 0, 1 ; sprite dimensions
 	dw VoltorbPicFront, VoltorbPicBack
 
-	db THUNDERSHOCK, SUPER_SONIC, SWIFT, NO_MOVE ; level 1 learnset
+	db THUNDERSHOCK, SUPERSONIC, SWIFT, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
