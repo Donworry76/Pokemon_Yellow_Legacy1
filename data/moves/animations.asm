@@ -405,7 +405,10 @@ TakeDownAnim:
 	db -1 ; end
 
 ThrashAnim:
-	battle_anim THRASH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
+	battle_anim DRAGON_RAGE, SUBANIM_1_FLAME_BEAM, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_1, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_2, 1, 6
+	battle_anim NO_MOVE, SUBANIM_1_FLAME_COLUMN_3, 1, 6
 	db -1 ; end
 
 DoubleEdgeAnim:
