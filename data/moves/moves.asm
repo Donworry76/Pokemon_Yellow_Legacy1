@@ -49,16 +49,16 @@ Moves:
 	move TAKE_DOWN,    RECOIL_EFFECT,               95, NORMAL,       100, 20
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  110, NORMAL,       100, 20
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              120, NORMAL,       100, 10
-	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, BIRD,         100, 20
+	move TAIL_WHIP,    DEFENSE_DOWN2_EFFECT,         0, BIRD,         100, 20
 	move POISON_STING, POISON_SIDE_EFFECT1,         35, POISON,       100, 35
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            40, BUG,          100, 20
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  20, BUG,          100, 30
-	move LEER,         DEFENSE_DOWN1_EFFECT,         0, BIRD,         100, 30
+	move LEER,         DEFENSE_DOWN2_EFFECT,         0, BIRD,         100, 30
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
-	move GROWL,        ATTACK_DOWN1_EFFECT,          0, BIRD,         100, 40
+	move GROWL,        ATTACK_DOWN2_EFFECT,          0, BIRD,         100, 40
 	move ROAR,         SWITCH_AND_TELEPORT_EFFECT,   0, BIRD,         100, 20
 	move SING,         SLEEP_EFFECT,                 0, BIRD,          70, 15
-	move SUPERSONIC,   CONFUSION_EFFECT,             0, BIRD,          70, 20
+	move SUPERSONIC,   CONFUSION_EFFECT,             0, BIRD,          75, 20
 	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,       100, 20
 	move DISABLE,      DISABLE_EFFECT,               0, BIRD,          75, 20
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    65, POISON,       100, 30
@@ -100,7 +100,7 @@ Moves:
 	move THUNDER,      PARALYZE_SIDE_EFFECT1,      130, ELECTRIC,      90, 5
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,         95, 25
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
-	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
+	move FISSURE,      NO_ADDITIONAL_EFFECT,        40, ROCK,         100, 25
 	move DIG,          CHARGE_EFFECT,               80, GROUND,       100, 15
 	move TOXIC,        POISON_EFFECT,                0, POISON,        85, 10
 	move CONFUSION,    CONFUSION_SIDE_EFFECT,       50, PSYCHIC_TYPE, 100, 25
