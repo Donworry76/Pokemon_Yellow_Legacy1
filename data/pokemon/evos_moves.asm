@@ -690,7 +690,7 @@ FearowEvosMoves:
 	db 24, DRILL_PECK
 	db 28, TRI_ATTACK
 	db 30, RECOVER
-	db 40, RAZOR_WIND
+	db 40, SKY_ATTACK
 	db 0
 
 PidgeyEvosMoves:
@@ -1078,9 +1078,9 @@ DragoniteEvosMoves:
 ; Learnset
 	db 55, SLAM
 	db 55, THUNDER_WAVE
-	db 55, SKY_ATTACK
+	db 55, THRASH
 	db 58, EARTHQUAKE
-	db 60, RAZOR_WIND
+	db 60, SKY_ATTACK
 	db 65, RECOVER
 	db 0
 
