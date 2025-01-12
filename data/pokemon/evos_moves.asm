@@ -280,8 +280,8 @@ VoltorbEvosMoves:
 ; Learnset
 	db 10, SONICBOOM
 	db 13, THUNDER_WAVE
-	db 19, SELFDESTRUCT
-	db 22, SWIFT
+	db 19, THUNDERPUNCH
+	db 22, SELFDESTRUCT
 	db 30, THUNDERBOLT
 	db 35, TRI_ATTACK
 	db 44, EXPLOSION
@@ -669,10 +669,10 @@ OnixEvosMoves:
 	db 0
 ; Learnset
 	db 12, ROCK_THROW
-	db 19, DIG
-	db 25, BIND
-	db 29, ROCK_SLIDE
-	db 31, SLAM
+	db 14, DIG
+	db 20, BIND
+	db 25, ROCK_SLIDE
+	db 30, SLAM
 	db 37, EARTHQUAKE
 	db 43, SPIKE_CANNON
 	db 48, EXPLOSION
