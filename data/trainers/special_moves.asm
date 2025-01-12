@@ -10,10 +10,7 @@ SpecialTrainerMoves:
 
 	db BROCK, 1
 	db 1, 3, ROCK_SLIDE
-	db 2, 1, DIG
-	db 2, 2, AGILITY
-	db 2, 3, SUBSTITUTE
-	db 2, 4, ROCK_SLIDE
+	db 2, 3, ROCK_SLIDE
 
 	db BROCK, 2
 	db 2, 2, BIND
