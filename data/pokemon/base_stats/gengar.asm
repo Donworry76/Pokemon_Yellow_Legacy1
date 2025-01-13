@@ -3,14 +3,14 @@
 	db  60, 105,  60, 110, 100
 	;   hp  atk  def  spd  spc
 
-	db GHOST, POISON ; type
+	db GHOST, GHOST ; type
 	db 45 ; catch rate
 	db 190 ; base exp
 
 	INCBIN "gfx/pokemon/front/gengar.pic", 0, 1 ; sprite dimensions
 	dw GengarPicFront, GengarPicBack
 
-	db LICK, CONFUSE_RAY, FIRE_PUNCH, ICE_PUNCH ; level 1 learnset
+	db LICK, CONFUSE_RAY, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
