@@ -2087,7 +2087,7 @@ PidgeotEvosMoves:
 	db 18, RECOVER
 	db 21, SKY_ATTACK
 	db 34, SAND_ATTACK
-	db 36, DOUBLE_EDGE
+	db 36, RAZOR_WIND
 	db 40, SKY_ATTACK
 	db 49, RECOVER
 	db 0
