@@ -9,5 +9,6 @@ PriorityMovesList:
     db BUBBLE,         8
     db FISSURE,        8
     db TRANSFORM,      8
+    db NIGHT_SHADE,    8
     db SWIFT,          8
     db -1 ; end
