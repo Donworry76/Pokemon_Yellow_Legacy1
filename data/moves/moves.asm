@@ -100,7 +100,7 @@ Moves:
 	move THUNDER,      PARALYZE_SIDE_EFFECT1,      130, ELECTRIC,      90, 5
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,         95, 25
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
-	move FISSURE,      NO_ADDITIONAL_EFFECT,        40, ROCK,         100, 25
+	move FISSURE,      NO_ADDITIONAL_EFFECT,        60, ROCK,         100, 25
 	move DIG,          CHARGE_EFFECT,               90, GROUND,       100, 15
 	move TOXIC,        POISON_EFFECT,                0, POISON,        85, 10
 	move CONFUSION,    CONFUSION_SIDE_EFFECT,       50, PSYCHIC_TYPE, 100, 25
