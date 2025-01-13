@@ -4,6 +4,7 @@
 PriorityMovesList:
     db COUNTER,        1
     db QUICK_ATTACK,   8
+    db COMET_PUNCH,    8
     db RAZOR_WIND,     10
     db BUBBLE,         8
     db FISSURE,        8
