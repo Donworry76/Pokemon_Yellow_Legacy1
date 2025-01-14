@@ -681,15 +681,15 @@ FearowEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEER
 	db 10, GLARE
 	db 14, TRI_ATTACK
 	db 18, DRILL_PECK
 	db 20, AGILITY
-	db 24, DRILL_PECK
-	db 28, TRI_ATTACK
-	db 30, RECOVER
+	db 24, RECOVER
+	db 30, TRI_ATTACK
+	db 35, DRILL_PECK
 	db 40, SKY_ATTACK
+	db 45, SPIKE_CANNON
 	db 0
 
 PidgeyEvosMoves:
@@ -699,7 +699,7 @@ PidgeyEvosMoves:
 ; Learnset
 	db 5, SAND_ATTACK
 	db 12, MIRROR_MOVE
-	db 15, SWIFT
+	db 15, SHARPEN
 	db 19, WING_ATTACK
 	db 29, TAKE_DOWN
 	db 34, AGILITY
@@ -711,9 +711,9 @@ SlowpokeEvosMoves:
 	db EVOLVE_LEVEL, 37, SLOWBRO
 	db 0
 ; Learnset
-	db 5, KINESIS
-	db 5, THUNDER_WAVE
-	db 10, CONFUSION 
+	db 5, CONFUSION
+	db 8, THUNDER_WAVE
+	db 10, BUBBLE 
 	db 18, BUBBLEBEAM
 	db 22, PSYBEAM
 	db 25, TRI_ATTACK
@@ -728,12 +728,12 @@ KadabraEvosMoves:
 	db EVOLVE_LEVEL, 42, ALAKAZAM
 	db 0
 ; Learnset
-	db 16, PSYBEAM
-	db 20, ICE_PUNCH
-	db 22, THUNDER_WAVE
+	db 16, CONFUSION
+	db 20, THUNDER_WAVE
+	db 25, PSYBEAM
 	db 28, RECOVER
 	db 38, PSYCHIC_M
-	db 42, THUNDER_WAVE
+	db 42, DISABLE
 	db 0
 
 GravelerEvosMoves:
@@ -755,9 +755,9 @@ ChanseyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, METRONOME
+	db 12, SEISMIC_TOSS
 	db 24, LOVELY_KISS
-	db 30, SEISMIC_TOSS
+	db 30, BARRAGE
 	db 38, MINIMIZE
 	db 44, SOFTBOILED
 	db 48, EGG_BOMB
@@ -798,7 +798,7 @@ HitmonleeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, DIG
+	db 25, FISSURE
 	db 33, JUMP_KICK
 	db 38, ROCK_SLIDE
 	db 43, HI_JUMP_KICK
@@ -810,7 +810,7 @@ HitmonchanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, AGILITY
+	db 25, COMET_PUNCH
 	db 33, FIRE_PUNCH
 	db 35, ICE_PUNCH
 	db 37, THUNDERPUNCH
@@ -825,13 +825,14 @@ ArbokEvosMoves:
 	db 0
 ; Learnset
 	db 9,  SLUDGE
-	db 15, EARTHQUAKE
+	db 15, WRAP
 	db 22, LEECH_LIFE
 	db 24, GLARE
-	db 25, SLUDGE
-	db 30, RECOVER
-	db 35, WRAP
+	db 28, SLUDGE
+	db 32, RECOVER
+	db 35, POISON_GAS
 	db 43, EARTHQUAKE
+	db 48, SKULL_BASH
 	db 0
 
 ParasectEvosMoves:
@@ -853,10 +854,10 @@ PsyduckEvosMoves:
 	db EVOLVE_LEVEL, 33, GOLDUCK
 	db 0
 ; Learnset
-	db 10, CONFUSION
+	db 10, PSYWAVE
 	db 15, CONFUSE_RAY
 	db 17, BUBBLEBEAM
-	db 23, KINESIS
+	db 23, PSYBEAM
 	db 34, RECOVER
 	db 42, PSYCHIC_M
 	db 45, AMNESIA
@@ -887,9 +888,9 @@ GolemEvosMoves:
 	db 21, BODY_SLAM
 	db 26, ROCK_SLIDE
 	db 38, SLAM
-	db 40, EARTHQUAKE
+	db 40, GLARE
 	db 45, SPIKE_CANNON
-	db 48, EXPLOSION
+	db 48, THRASH
 	db 0
 
 MissingNo32EvosMoves:
@@ -903,10 +904,10 @@ MagmarEvosMoves:
 	db 0
 ; Learnset
 	db 10, FIRE_PUNCH
-	db 15, SMOKESCREEN
-	db 20, CONFUSE_RAY
+	db 15, CONFUSE_RAY
+	db 20, BARRAGE
 	db 31, FLAMETHROWER
-	db 40, SOLARBEAM
+	db 40, POISON_GAS
 	db 43, PSYCHIC_M
 	db 54, FIRE_BLAST
 	db 0
@@ -922,7 +923,7 @@ ElectabuzzEvosMoves:
 	db 0
 ; Learnset
 	db 15, THUNDERPUNCH
-	db 20, KARATE_CHOP
+	db 20, COMET_PUNCH
 	db 25, BODY_SLAM
 	db 31, THUNDERBOLT
 	db 40, MEGA_PUNCH
@@ -951,13 +952,13 @@ KoffingEvosMoves:
 	db EVOLVE_LEVEL, 35, WEEZING
 	db 0
 ; Learnset
-	db 23, FIRE_SPIN
-	db 27, SMOKESCREEN
-	db 33, SLUDGE
+	db 20, FIRE_SPIN
+	db 25, BARRAGE
+	db 27, SLUDGE
+	db 33, SMOKESCREEN
 	db 38, AMNESIA
 	db 40, SELFDESTRUCT
 	db 45, HAZE
-	db 48, EXPLOSION
 	db 0
 
 MissingNo38EvosMoves:
@@ -973,7 +974,7 @@ MankeyEvosMoves:
 ; Learnset
 	db 9, LOW_KICK
 	db 15, ROCK_THROW
-	db 21, KARATE_CHOP
+	db 21, GLARE
 	db 27, BODY_SLAM
 	db 33, SEISMIC_TOSS
 	db 39, THRASH
@@ -989,10 +990,10 @@ SeelEvosMoves:
 	db 13, BUBBLEBEAM
 	db 16, AURORA_BEAM
 	db 21, RECOVER
-	db 25, MIMIC
+	db 26, CONSTRICT
+	db 28, MIMIC
 	db 32, BODY_SLAM
 	db 40, ICE_BEAM
-	db 50, BLIZZARD
 	db 0
 
 DiglettEvosMoves:
@@ -1020,7 +1021,7 @@ TaurosEvosMoves:
 	db 27, BODY_SLAM
 	db 35, SWORDS_DANCE
 	db 40, DOUBLE_EDGE
-	db 45, ROCK_SLIDE
+	db 45, SKULL_BASH
 	db 50, EARTHQUAKE
 	db 0
 
@@ -1061,14 +1062,14 @@ VenonatEvosMoves:
 	db EVOLVE_LEVEL, 31, VENOMOTH
 	db 0
 ; Learnset
-	db 11, CONFUSE_RAY
 	db 13, CONFUSION
 	db 17, LEECH_LIFE
 	db 20, PSYBEAM
 	db 29, STUN_SPORE
-	db 33, PSYBEAM
+	db 33, SLUDGE
 	db 36, SLEEP_POWDER
-	db 41, PSYCHIC_M
+	db 41, DREAM_EATER
+	db 46, TAKE_DOWN
 	db 0
 
 DragoniteEvosMoves:
