@@ -140,8 +140,8 @@ Moves:
 	move WATERFALL,    FLINCH_SIDE_EFFECT1,         80, WATER,        100, 15
 	move CLAMP,        TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,          100, 10
 	move SWIFT,        SWIFT_EFFECT,                70, ICE,          100, 20
-	move SKULL_BASH,   FLINCH_SIDE_EFFECT1,         120, GHOST,        90, 5
-	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  30, ROCK,         100, 10
+	move SKULL_BASH,   FLINCH_SIDE_EFFECT1,         110, GHOST,        90, 5
+	move SPIKE_CANNON, ATTACK_TWICE_EFFECT,         60, ROCK,         100, 10
 	move CONSTRICT,    PARALYZE_SIDE_EFFECT2,       75, ELECTRIC,     100, 20
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, BIRD,         100, 20
 	move KINESIS,      ACCURACY_DOWN1_EFFECT,        0, BIRD,        100,  15
