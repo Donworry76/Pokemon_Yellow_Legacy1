@@ -32,7 +32,7 @@ Moves:
 	move FLY,          FLY_EFFECT,                  90, FLYING,       100, 15
 	move BIND,         TRAPPING_EFFECT,             15, ROCK,          85, 20
 	move SLAM,         FLINCH_SIDE_EFFECT1,         90, DRAGON,      100, 20
-	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        40, GRASS,        100, 25
+	move VINE_WHIP,    SWIFT_EFFECT,                45, GRASS,        100, 20
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         35, FIGHTING,     100, 30
 	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,        85, 10
@@ -50,7 +50,7 @@ Moves:
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  120, DRAGON,       100, 10
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              120, NORMAL,       100, 10
 	move TAIL_WHIP,    DEFENSE_DOWN2_EFFECT,         0, BIRD,         100, 20
-	move POISON_STING, POISON_SIDE_EFFECT1,         35, POISON,       100, 35
+	move POISON_STING, POISON_SIDE_EFFECT1,         40, POISON,       100, 35
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            45, BUG,          100, 20
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, BUG,          100, 30
 	move LEER,         DEFENSE_DOWN2_EFFECT,         0, BIRD,         100, 30
@@ -62,10 +62,10 @@ Moves:
 	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,       100, 20
 	move DISABLE,      DISABLE_EFFECT,               0, BIRD,          75, 20
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    65, POISON,       100, 30
-	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 25
+	move EMBER,        BURN_SIDE_EFFECT1,           45, FIRE,         100, 25
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE,         100, 15
 	move MIST,         MIST_EFFECT,                  0, ICE,          100, 30
-	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,        100, 25
+	move WATER_GUN,    TWO_TO_FIVE_ATTACKS_EFFECT,  20, WATER,        100, 20
 	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,         90, 10
 	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,        100, 15
 	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          95, ICE,          100, 10
