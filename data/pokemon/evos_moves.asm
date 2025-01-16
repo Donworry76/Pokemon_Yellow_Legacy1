@@ -633,8 +633,8 @@ TangelaEvosMoves:
 	db 23, STUN_SPORE
 	db 25, AMNESIA
 	db 32, EGG_BOMB
-	db 42, SPORE
-	db 45, DREAM_EATER
+	db 41, SPORE
+	db 41, DREAM_EATER
 	db 48, SELFDESTRUCT
 	db 0
 
@@ -2520,9 +2520,9 @@ VileplumeEvosMoves:
 	db 21, PETAL_DANCE
 	db 25, MEGA_DRAIN
 	db 30, AMNESIA
-	db 35, PETAL_DANCE
-	db 40, NIGHT_SHADE
-	db 50, RECOVER
+	db 35, NIGHT_SHADE
+	db 40, PETAL_DANCE
+	db 50, SKULL_BASH
 	db 0
 
 BellsproutEvosMoves:
@@ -2530,8 +2530,8 @@ BellsproutEvosMoves:
 	db EVOLVE_LEVEL, 21, WEEPINBELL
 	db 0
 ; Learnset
-	db 13, TOXIC
-	db 21, STUN_SPORE
+	db 13, ACID
+	db 17, WRAP
 	db 25, ACID
 	db 27, HEADBUTT
 	db 29, RAZOR_LEAF
@@ -2546,9 +2546,9 @@ WeepinbellEvosMoves:
 	db 0
 ; Learnset
 	db 21, STUN_SPORE
-	db 22, ACID
-	db 25, RAZOR_LEAF
-	db 29, WRAP
+	db 22, RAZOR_LEAF
+	db 25, SLUDGE
+	db 29, EGG_BOMB
 	db 36, SLUDGE
 	db 43, WRAP
 	db 48, SLEEP_POWDER
@@ -2564,7 +2564,7 @@ VictreebelEvosMoves:
 	db 25, SWORDS_DANCE
 	db 27, SLUDGE
 	db 29, EGG_BOMB
-	db 36, SLUDGE
+	db 36, BARRAGE
 	db 43, SWORDS_DANCE
 	db 48, SELFDESTRUCT
 	db 0
