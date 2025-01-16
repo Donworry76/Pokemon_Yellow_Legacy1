@@ -4,10 +4,7 @@
 ;	db 0
 
 SpecialTrainerMoves:
-	db YOUNGSTER, 14
-	db 1, 4, FISSURE
-	db 0
-
+	
 	db BROCK, 1
 	db 1, 3, ROCK_SLIDE
 	db 2, 3, ROCK_SLIDE
@@ -23,7 +20,7 @@ SpecialTrainerMoves:
 
 	db MISTY, 1
 	db 1, 2, LEECH_SEED
-	db 2, 1, BLIZZARD
+	db 2, 1, ICE_BEAM
 	db 3, 1, PSYCHIC_M
 	db 3, 2, THUNDER_WAVE
 	db 0
@@ -41,11 +38,11 @@ SpecialTrainerMoves:
 	db 5, 4, BODY_SLAM
 	db 0
 
-	db LT_SURGE, 1 ; db $FF, 31, RAICHU, 0
+	db LT_SURGE, 1 ; db $FF, 31, ZAPDOS, 0
 	db 1, 1, THUNDERBOLT
-	db 1, 2, THUNDER_WAVE
-	db 1, 3, BODY_SLAM
-	db 1, 4, SURF
+	db 1, 2, DRILL_PECK
+	db 1, 3, RECOVER
+	db 1, 4, SWIFT
 	db 0
 
 	db LT_SURGE, 2 ; db $FF, 65, ZAPDOS, 65, POLIWRATH, 64, LICKITUNG, 64, PORYGON, 64, ELECTABUZZ, 65, RAICHU, 0
@@ -75,15 +72,11 @@ SpecialTrainerMoves:
 	db 4, 4, SLEEP_POWDER
 	db 0
 
-	db ERIKA, 2 ; db $FF, 41, TANGELA, 42, VICTREEBEL, 42, VENUSAUR, 43, VILEPLUME, 0
-	db 1, 1, BIND
-	db 1, 2, BODY_SLAM
-    	db 2, 1, SWORDS_DANCE
-	db 2, 2, WRAP
-    	db 3, 1, RAZOR_LEAF
-    	db 3, 2, LEECH_SEED
-    	db 3, 3, SLUDGE
-    	db 4, 2, SLEEP_POWDER
+	db ERIKA, 2 ; db $FF, 42, TANGELA, 42, VICTREEBEL, 42, VENUSAUR, 43, VILEPLUME, 0
+    	db 3, 1, EARTHQUAKE
+    	db 3, 3, CONSTRICT
+	db 4, 3, SLEEP_POWDER
+    	db 4, 4, SKULL_BASH
     	db 0 
 
 	db ERIKA, 3 ; db $FF, 48, TANGELA, 49, VICTREEBEL, 48, VENUSAUR, 49, EXEGGUTOR, 50, VILEPLUME, 0
