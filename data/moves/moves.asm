@@ -30,7 +30,7 @@ Moves:
 	move WING_ATTACK,  ATTACK_TWICE_EFFECT,         40, FLYING,       100, 35
 	move WHIRLWIND,    CONFUSION_SIDE_EFFECT,      110, FLYING,        95,  5
 	move FLY,          FLY_EFFECT,                  90, FLYING,       100, 15
-	move BIND,         TRAPPING_EFFECT,             15, ROCK,          85, 20
+	move BIND,         TRAPPING_EFFECT,             22, ROCK,          85, 20
 	move SLAM,         FLINCH_SIDE_EFFECT1,         90, DRAGON,      100, 20
 	move VINE_WHIP,    SWIFT_EFFECT,                45, GRASS,        100, 20
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
@@ -45,13 +45,13 @@ Moves:
 	move HORN_DRILL,   OHKO_EFFECT,                  1, NORMAL,        30,  5
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,       100, 15
-	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
+	move WRAP,         TRAPPING_EFFECT,             20, NORMAL,        85, 20
 	move TAKE_DOWN,    BURN_SIDE_EFFECT2,           75, FIRE,         100, 20
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,  120, DRAGON,       100, 10
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              120, NORMAL,       100, 10
 	move TAIL_WHIP,    DEFENSE_DOWN2_EFFECT,         0, BIRD,         100, 20
-	move POISON_STING, POISON_SIDE_EFFECT1,         40, POISON,       100, 35
-	move TWINEEDLE,    TWINEEDLE_EFFECT,            45, BUG,          100, 20
+	move POISON_STING, POISON_SIDE_EFFECT1,         35, POISON,       100, 35
+	move TWINEEDLE,    TWINEEDLE_EFFECT,            50, BUG,          100, 20
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, BUG,          100, 30
 	move LEER,         DEFENSE_DOWN2_EFFECT,         0, BIRD,         100, 30
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
@@ -75,7 +75,7 @@ Moves:
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,          100, 20
 	move HYPER_BEAM,   HYPER_BEAM_EFFECT,          150, NORMAL,        90,  5
 	move PECK,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
-	move DRILL_PECK,   NO_ADDITIONAL_EFFECT,        90, FLYING,       100, 10
+	move DRILL_PECK,   FLINCH_SIDE_EFFECT2,         90, FLYING,       100, 10
 	move SUBMISSION,   RECOIL_EFFECT,               120, FIGHTING,    100, 10
 	move LOW_KICK,     FLINCH_SIDE_EFFECT2,         50, FIGHTING,     100, 20
 	move COUNTER,      NO_ADDITIONAL_EFFECT,         1, FIGHTING,     100, 20
@@ -86,7 +86,7 @@ Moves:
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,         90, 10
 	move GROWTH,       SPECIAL_UP1_EFFECT,           0, BIRD,         100, 40
 	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,         95, 25
-	move SOLARBEAM,    CHARGE_EFFECT,              130, GRASS,        100, 5
+	move SOLARBEAM,    BURN_SIDE_EFFECT1,           110, GRASS,        100, 10
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,        90, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         75, 30
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         75, 15
@@ -140,7 +140,7 @@ Moves:
 	move WATERFALL,    FLINCH_SIDE_EFFECT1,         80, WATER,        100, 15
 	move CLAMP,        TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,          100, 10
 	move SWIFT,        SWIFT_EFFECT,                70, ICE,          100, 20
-	move SKULL_BASH,   FLINCH_SIDE_EFFECT1,         110, GHOST,        90, 5
+	move SKULL_BASH,   FLINCH_SIDE_EFFECT1,         100, GHOST,        90, 5
 	move SPIKE_CANNON, ATTACK_TWICE_EFFECT,         50, ROCK,         100, 10
 	move CONSTRICT,    PARALYZE_SIDE_EFFECT2,       75, ELECTRIC,     100, 20
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, BIRD,         100, 20
@@ -165,7 +165,7 @@ Moves:
 	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,       100, WATER,        100, 10
 	move EXPLOSION,    RECOIL_EFFECT,              120, ROCK,         100, 10
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 15
-	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 20
+	move BONEMERANG,   ATTACK_TWICE_EFFECT,         60, GROUND,        95, 20
 	move REST,         HEAL_EFFECT,                  0, BIRD,         100, 10
 	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT1,         80, ROCK,         100, 15
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
