@@ -1,8 +1,8 @@
 PrizeMonLevelDictionary:
-	db ABRA,     	15
-	db SEEL,     	20
-	db MAGMAR,   	22
+	db PORYGON,     25
+	db JYNX,     	25
+	db DRATINI,   	25
 
-	db ELECTABUZZ,  22
-	db DRATINI,     25
-	db PORYGON,    	30
+	db AERODACTYL,  25
+	db TAUROS,      25
+	db MEW,    	30
