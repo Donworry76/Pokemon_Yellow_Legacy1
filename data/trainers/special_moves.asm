@@ -10,12 +10,10 @@ SpecialTrainerMoves:
 	db 2, 3, ROCK_SLIDE
 
 	db BROCK, 2
-	db 2, 2, BIND
+	db 2, 3, BIND
 	db 3, 2, LEECH_LIFE
 	db 3, 3, HYPER_BEAM
-	db 4, 4, REST
-	db 5, 4, HYPNOSIS
-	db 6, 2, FLY
+	db 4, 1, MEGA_PUNCH
 	db 0
 
 	db MISTY, 1
