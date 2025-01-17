@@ -9,7 +9,7 @@ Route1WildMons:
 	db  5, EKANS
 	db  4, RATTATA
 	db  5, SPEAROW
-	db  6, SPEAROW
+	db  6, EEVEE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
