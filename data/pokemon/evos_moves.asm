@@ -222,12 +222,13 @@ KangaskhanEvosMoves:
 	db 0
 ; Learnset
 	db 7, DIZZY_PUNCH
-	db 15, MEGA_PUNCH
+	db 15, COMET_PUNCH
 	db 21, DRAGON_RAGE
 	db 24, SWORDS_DANCE
 	db 29, SLAM
 	db 37, DOUBLE_EDGE
-	db 48, EARTHQUAKE
+	db 48, MEGA_PUNCH
+	db 55, HYPER_BEAM
 	db 0
 
 NidoranMEvosMoves:
@@ -240,7 +241,6 @@ NidoranMEvosMoves:
 	db 12, DOUBLE_KICK
 	db 23, FOCUS_ENERGY
 	db 30, FURY_ATTACK
-	db 38, HORN_DRILL
 	db 0
 
 ClefairyEvosMoves:
@@ -278,10 +278,10 @@ VoltorbEvosMoves:
 	db EVOLVE_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 10, BARRAGE
-	db 13, THUNDER_WAVE
+	db 10, THUNDER_WAVE
+	db 13, BARRAGE
 	db 19, THUNDERPUNCH
-	db 22, EXPLOSION
+	db 22, SELFDESTRUCT
 	db 30, THUNDERBOLT
 	db 35, TRI_ATTACK
 	db 44, SWIFT
@@ -369,7 +369,7 @@ ExeggcuteEvosMoves:
 	db EVOLVE_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
-	db 10, TOXIC
+	db 10, REFLECT
 	db 13, LEECH_SEED
 	db 19, PSYBEAM
 	db 20, MEGA_DRAIN
@@ -1959,7 +1959,7 @@ ElectrodeEvosMoves:
 	db 10, TRI_ATTACK
 	db 19, THUNDERBOLT
 	db 22, THUNDER_WAVE
-	db 26, EXPLOSION
+	db 26, SELFDESTRUCT
 	db 30, THUNDERBOLT
 	db 35, TRI_ATTACK
 	db 44, SWIFT
