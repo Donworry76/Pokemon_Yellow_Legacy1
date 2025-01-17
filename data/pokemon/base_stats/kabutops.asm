@@ -1,6 +1,6 @@
 	db DEX_KABUTOPS ; pokedex id
 
-	db  60, 135, 115,  80,  70
+	db  60, 125, 115,  80,  70
 	;   hp  atk  def  spd  spc
 
 	db BUG, ROCK ; type
