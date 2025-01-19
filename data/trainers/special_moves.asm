@@ -25,15 +25,9 @@ SpecialTrainerMoves:
 
 	db MISTY, 2
 	db 1, 3, BLIZZARD
-	db 2, 1, THUNDERBOLT
-	db 3, 1, BLIZZARD
-	db 3, 4, SING
-	db 4, 3, BLIZZARD
-	db 4, 4, SURF
-	db 5, 1, THUNDER_WAVE
-	db 5, 2, HYPER_BEAM
-	db 5, 3, SEISMIC_TOSS
-	db 5, 4, BODY_SLAM
+	db 2, 2, THUNDERBOLT
+	db 3, 1, THUNDERBOLT
+	db 5, 4, HYPER_BEAM
 	db 0
 
 	db LT_SURGE, 1 ; db $FF, 31, ZAPDOS, 0
