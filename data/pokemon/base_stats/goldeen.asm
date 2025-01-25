@@ -3,14 +3,14 @@
 	db  45,  77,  60,  63,  60
 	;   hp  atk  def  spd  spc
 
-	db WATER, NORMAL ; type
+	db WATER, FIRE ; type
 	db 225 ; catch rate
 	db 111 ; base exp
 
 	INCBIN "gfx/pokemon/front/goldeen.pic", 0, 1 ; sprite dimensions
 	dw GoldeenPicFront, GoldeenPicBack
 
-	db WATER_GUN, BUBBLE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db EMBER, BUBBLE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
